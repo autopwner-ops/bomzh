@@ -13,15 +13,6 @@ proxies:
     path: /
     headers:
       Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: '🇦🇷[Bomzh]Argentina #1'
-  type: vless
-  server: fancy-haze-ab00.236-68b.workers.dev
-  port: 8880
-  uuid: adcce8be-9de7-41bd-abcd-52939cec108b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
 - name: '🇦🇺[Bomzh]Australia #1'
   type: vless
   server: soskeynets.ghydgdbdbddvv.workers.dev
@@ -65,17 +56,36 @@ proxies:
     public-key: a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE
     short-id: d15c17cef9b2e456
 - name: '🇦🇹[Bomzh]Austria #1'
-  type: trojan
-  server: app-538961.user-y0o4gm.workers.dev
+  type: vless
+  server: 95.163.232.184
   port: 443
-  password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
+  uuid: 8e676cd1-5497-0191-b1eb-17df2e347d24
   udp: true
-  sni: app-538961.user-y0o4gm.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
+  tls: true
+  servername: cdn.selectel.ru
+  client-fingerprint: qq
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: c1a7e9b4711d5f60
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 - name: '🇦🇹[Bomzh]Austria #2'
+  type: vless
+  server: 185.91.52.223
+  port: 444
+  uuid: 8e676cd1-5497-0191-b1eb-17df2e347d24
+  udp: true
+  tls: true
+  servername: cdn.selectel.ru
+  client-fingerprint: qq
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: c1a7e9b4711d5f60
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🇦🇹[Bomzh]Austria #3'
   type: vless
   server: fancy-wind-799d.cloudneryacc.workers.dev
   port: 443
@@ -175,6 +185,17 @@ proxies:
       Host: live.ok.ru
 - name: '🇧🇷[Bomzh]Brazil #2'
   type: vless
+  server: 201.24.49.53
+  port: 4100
+  uuid: 33965d4f-f9bd-4437-8867-ed705b435518
+  udp: true
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '🇧🇷[Bomzh]Brazil #3'
+  type: vless
   server: 201.24.49.237
   port: 2200
   uuid: af412668-578c-4296-bc8c-8fac6a8d9003
@@ -182,7 +203,7 @@ proxies:
   network: ws
   ws-opts:
     path: /v1
-- name: '🇧🇷[Bomzh]Brazil #3'
+- name: '🇧🇷[Bomzh]Brazil #4'
   type: vless
   server: 201.24.49.120
   port: 4100
@@ -191,7 +212,16 @@ proxies:
   network: ws
   ws-opts:
     path: /v1
-- name: '🇧🇷[Bomzh]Brazil #4'
+- name: '🇧🇷[Bomzh]Brazil #5'
+  type: vless
+  server: 201.24.49.79
+  port: 2200
+  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
+  udp: true
+  network: ws
+  ws-opts:
+    path: /v1
+- name: '🇧🇷[Bomzh]Brazil #6'
   type: vless
   server: 201.24.49.19
   port: 2200
@@ -200,38 +230,7 @@ proxies:
   network: ws
   ws-opts:
     path: /v1
-- name: '🇧🇷[Bomzh]Brazil #5'
-  type: vless
-  server: 201.24.49.117
-  port: 2200
-  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '🇧🇷[Bomzh]Brazil #6'
-  type: vless
-  server: 201.24.49.79
-  port: 4100
-  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
 - name: '🇧🇷[Bomzh]Brazil #7'
-  type: vless
-  server: 201.24.49.228
-  port: 2200
-  uuid: 09f2e2f4-3225-4342-bc92-cb58ee841f72
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇧🇷[Bomzh]Brazil #8'
   type: vless
   server: 201.24.49.69
   port: 4100
@@ -240,7 +239,7 @@ proxies:
   network: ws
   ws-opts:
     path: /v1
-- name: '🇧🇷[Bomzh]Brazil #9'
+- name: '🇧🇷[Bomzh]Brazil #8'
   type: vless
   server: 201.24.49.53
   port: 2200
@@ -251,21 +250,21 @@ proxies:
     path: /v1
     headers:
       Host: rzd.ru
-- name: '🇧🇷[Bomzh]Brazil #10'
+- name: '🇧🇷[Bomzh]Brazil #9'
   type: ss
   server: 146.235.25.6
   port: 59319
   cipher: 2022-blake3-chacha20-poly1305
   password: FWlUCAS9IBNg+5FoZ+U0kRs3dcz+oQnQkjGI/iKZMR0=
   udp: true
-- name: '🇧🇷[Bomzh]Brazil #11'
+- name: '🇧🇷[Bomzh]Brazil #10'
   type: ss
   server: 137.131.200.22
   port: 59319
   cipher: 2022-blake3-chacha20-poly1305
   password: tNYMIixAhMRlptzlIGQrnx6y24ONgfLrblB3qmVzwDY=
   udp: true
-- name: '🇧🇷[Bomzh]Brazil #12'
+- name: '🇧🇷[Bomzh]Brazil #11'
   type: vless
   server: round-truth-dcf1.34-719.workers.dev
   port: 8880
@@ -274,7 +273,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇧🇷[Bomzh]Brazil #13'
+- name: '🇧🇷[Bomzh]Brazil #12'
   type: vless
   server: sparkling-shadow-481d.342-429.workers.dev
   port: 8880
@@ -295,23 +294,23 @@ proxies:
 - name: '🇧🇬[Bomzh]Bulgaria #2'
   type: ss
   server: 213.183.63.60
-  port: 9028
+  port: 9066
   cipher: aes-256-cfb
-  password: 9eeJ2fwnZA5Fxgz8
+  password: 2KUaE2a8NWTvuCZ3
   udp: true
 - name: '🇧🇬[Bomzh]Bulgaria #3'
   type: ss
   server: 213.183.63.60
-  port: 9061
+  port: 9098
   cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
+  password: aLpQtfEZe445QyHk
   udp: true
 - name: '🇧🇬[Bomzh]Bulgaria #4'
   type: ss
   server: 213.183.63.60
-  port: 9066
+  port: 9028
   cipher: aes-256-cfb
-  password: 2KUaE2a8NWTvuCZ3
+  password: 9eeJ2fwnZA5Fxgz8
   udp: true
 - name: '🇧🇬[Bomzh]Bulgaria #5'
   type: ss
@@ -326,20 +325,6 @@ proxies:
   port: 9049
   cipher: aes-256-cfb
   password: PRBf4BS2HvJqtWxY
-  udp: true
-- name: '🇧🇬[Bomzh]Bulgaria #7'
-  type: ss
-  server: 213.183.63.60
-  port: 9098
-  cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
-  udp: true
-- name: '🇧🇬[Bomzh]Bulgaria #8'
-  type: ss
-  server: 213.183.63.60
-  port: 9030
-  cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
   udp: true
 - name: '🇨🇦[Bomzh]Canada #1'
   type: ss
@@ -390,32 +375,6 @@ proxies:
     headers:
       Host: 8tsmm6nspocz3ha9.khr2dz0ola61ydpze6zvu7jhcd4.workers.dev
 - name: '🇨🇦[Bomzh]Canada #7'
-  type: trojan
-  server: 104.18.152.225
-  port: 443
-  password: MITIVPN
-  udp: true
-  sni: Dee---7-MiTiVPN----o.aPp-cLoud.IR
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e
-    headers:
-      Host: d-e-mitivpn---MiTiVPN---MiTiVPN.aPp-cLoud.IR
-- name: '🇨🇦[Bomzh]Canada #8'
-  type: trojan
-  server: 104.18.32.47
-  port: 443
-  password: MiTiVPN
-  udp: true
-  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
-    headers:
-      Host: Fl--mitivpn-MiTiVPN---MiTiVPN-s-.aPp-cLoud.IR
-- name: '🇨🇦[Bomzh]Canada #9'
   type: vless
   server: 104.17.123.204
   port: 8880
@@ -426,7 +385,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: long-firefly-a226.216-ce0.workers.dev
-- name: '🇨🇦[Bomzh]Canada #10'
+- name: '🇨🇦[Bomzh]Canada #8'
   type: vless
   server: 104.17.214.146
   port: 2095
@@ -437,7 +396,7 @@ proxies:
     path: /JVSZzd53GDDsUAKJ
     headers:
       Host: worker3.farapav827.workers.dev
-- name: '🇨🇦[Bomzh]Canada #11'
+- name: '🇨🇦[Bomzh]Canada #9'
   type: vless
   server: 104.16.101.215
   port: 8880
@@ -448,21 +407,7 @@ proxies:
     path: /
     headers:
       Host: wispy-cake-ec69.193-bc6.workers.dev
-- name: '🇨🇦[Bomzh]Canada #12'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 1043634e-8d9d-4736-83fa-f14ddc9d464c
-  udp: true
-  tls: true
-  servername: dfsuporte.garena.com.ex33r.eu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /id-amz
-    headers:
-      Host: dfsuporte.garena.com.ex33r.eu.cc
-- name: '🇨🇦[Bomzh]Canada #13'
+- name: '🇨🇦[Bomzh]Canada #10'
   type: vless
   server: 188.114.97.6
   port: 443
@@ -478,7 +423,7 @@ proxies:
     path: /eyJqdW5rIjoiZ3RXWk45UVhpRVB3R3VPIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19
     headers:
       Host: silent-king-5030.aiprointer.workers.dev
-- name: '🇨🇦[Bomzh]Canada #14'
+- name: '🇨🇦[Bomzh]Canada #11'
   type: vless
   server: 104.16.98.215
   port: 8880
@@ -489,7 +434,7 @@ proxies:
     path: /
     headers:
       Host: steep-thunder-97fa.108-d10.workers.dev
-- name: '🇨🇦[Bomzh]Canada #15'
+- name: '🇨🇦[Bomzh]Canada #12'
   type: vless
   server: 188.114.97.6
   port: 443
@@ -503,7 +448,7 @@ proxies:
     path: /glasspanel/guest000_0_5de14443985f/
     headers:
       Host: mao.kipfel.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #16'
+- name: '🇨🇦[Bomzh]Canada #13'
   type: vless
   server: 188.114.96.7
   port: 8443
@@ -517,7 +462,7 @@ proxies:
     path: /sync
     headers:
       Host: fragrant-unit-d662.mmammatrix770088.workers.dev
-- name: '🇨🇦[Bomzh]Canada #17'
+- name: '🇨🇦[Bomzh]Canada #14'
   type: vless
   server: 104.18.39.218
   port: 80
@@ -528,7 +473,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #18'
+- name: '🇨🇦[Bomzh]Canada #15'
   type: vless
   server: 108.162.198.178
   port: 8080
@@ -539,7 +484,7 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #19'
+- name: '🇨🇦[Bomzh]Canada #16'
   type: vless
   server: 108.162.198.178
   port: 8880
@@ -550,7 +495,7 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #20'
+- name: '🇨🇦[Bomzh]Canada #17'
   type: vless
   server: 162.159.48.32
   port: 80
@@ -561,7 +506,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #21'
+- name: '🇨🇦[Bomzh]Canada #18'
   type: vless
   server: 162.159.48.32
   port: 8880
@@ -572,7 +517,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #22'
+- name: '🇨🇦[Bomzh]Canada #19'
   type: vless
   server: 188.114.97.6
   port: 2052
@@ -583,7 +528,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #23'
+- name: '🇨🇦[Bomzh]Canada #20'
   type: vless
   server: 188.114.97.6
   port: 2082
@@ -594,7 +539,7 @@ proxies:
     path: /
     headers:
       Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #24'
+- name: '🇨🇦[Bomzh]Canada #21'
   type: vless
   server: 188.114.98.0
   port: 80
@@ -605,7 +550,7 @@ proxies:
     path: /NWpadfduJl5DcIDB
     headers:
       Host: worker3.gahekif304.workers.dev
-- name: '🇨🇦[Bomzh]Canada #25'
+- name: '🇨🇦[Bomzh]Canada #22'
   type: vless
   server: 104.17.170.132
   port: 8880
@@ -616,48 +561,21 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: mute-river-6aee.421-bd7.workers.dev
-- name: '🇨🇦[Bomzh]Canada #26'
+- name: '🇨🇦[Bomzh]Canada #23'
   type: vless
-  server: 188.114.97.6
+  server: 104.25.0.3
   port: 443
-  uuid: 4bde8d55-d91c-45e9-9b36-e6448a194527
+  uuid: 50414e45-4c5f-5a45-5553-cfe2811bf0fc
   udp: true
   tls: true
-  servername: dfsuporte.garena.com.ex33r.eu.cc
+  servername: ez-6cdceb.iaznp3e6ujbs.workers.dev
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /sg-amz
+    path: /stream/PANEL_ZEUS/cfe2811bf0fc
     headers:
-      Host: dfsuporte.garena.com.ex33r.eu.cc
-- name: '🇨🇦[Bomzh]Canada #27'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 63ec2a82-e47c-4782-a89e-9aca2baf17ef
-  udp: true
-  tls: true
-  servername: quiz.int.vidio.com.ex33r.eu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /id-pusat
-    headers:
-      Host: quiz.int.vidio.com.ex33r.eu.cc
-- name: '🇨🇦[Bomzh]Canada #28'
-  type: vless
-  server: 158.69.112.254
-  port: 443
-  uuid: 661f395d-b153-4199-a04b-693f5fe7f261
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: www.speedtest.net
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
-    short-id: 3d3c1e645f763ee3
-- name: '🇨🇦[Bomzh]Canada #29'
+      Host: ez-6cdceb.iaznp3e6ujbs.workers.dev
+- name: '🇨🇦[Bomzh]Canada #24'
   type: vless
   server: 104.21.46.128
   port: 443
@@ -671,7 +589,7 @@ proxies:
     path: /blog/ranking/task/proxyip
     headers:
       Host: yx.zhourf2006.dpdns.org
-- name: '🇨🇦[Bomzh]Canada #30'
+- name: '🇨🇦[Bomzh]Canada #25'
   type: vless
   server: 188.114.97.3
   port: 443
@@ -685,7 +603,7 @@ proxies:
     path: /vl/14m2B3TtxW5N85ews?ed
     headers:
       Host: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
-- name: '🇨🇦[Bomzh]Canada #31'
+- name: '🇨🇦[Bomzh]Canada #26'
   type: vless
   server: 104.21.70.21
   port: 8080
@@ -696,18 +614,7 @@ proxies:
     path: /
     headers:
       Host: freeuse.firta.ru
-- name: '🇨🇦[Bomzh]Canada #32'
-  type: vless
-  server: 104.16.72.41
-  port: 80
-  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  udp: true
-  network: ws
-  ws-opts:
-    path: /http
-    headers:
-      Host: de.vpnbase.net
-- name: '🇨🇦[Bomzh]Canada #33'
+- name: '🇨🇦[Bomzh]Canada #27'
   type: vless
   server: 172.64.150.28
   port: 2082
@@ -718,7 +625,7 @@ proxies:
     path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: '🇨🇦[Bomzh]Canada #34'
+- name: '🇨🇦[Bomzh]Canada #28'
   type: vless
   server: 172.66.149.243
   port: 8443
@@ -732,7 +639,54 @@ proxies:
     path: /eyJqdW5rIjoid2tkV0g2R3kxYlNTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
     headers:
       Host: bazyepc.aminrazavi1384.workers.dev
-- name: '🇨🇦[Bomzh]Canada #35'
+- name: '🇨🇦[Bomzh]Canada #29'
+  type: vless
+  server: 104.16.100.215
+  port: 8880
+  uuid: 8d36dcef-c008-47f1-b8a0-4f63193697f8
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=te93Ǫ
+    headers:
+      Host: tiny-union-8d4d.32-c76.workers.dev
+- name: '🇨🇦[Bomzh]Canada #30'
+  type: vless
+  server: 162.159.156.214
+  port: 8880
+  uuid: 8991a496-1baa-486f-9948-ffe44e68c072
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: soft-band-8da6.426.workers.dev
+- name: '🇨🇦[Bomzh]Canada #31'
+  type: vless
+  server: 104.27.82.154
+  port: 8880
+  uuid: 94ed4a58-dcf4-43cb-afc1-f158e14ec42d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: gentle-surf-cc74.345-604.workers.dev
+- name: '🇨🇦[Bomzh]Canada #32'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 96a32aaa-ebd9-4824-aa04-e9678011d9b0
+  udp: true
+  tls: true
+  servername: old-tooth-d793.447-02e.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: old-tooth-d793.447-02e.workers.dev
+- name: '🇨🇦[Bomzh]Canada #33'
   type: vless
   server: 104.21.56.202
   port: 8880
@@ -743,7 +697,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: dawn-cell-346f.238-df6.workers.dev
-- name: '🇨🇦[Bomzh]Canada #36'
+- name: '🇨🇦[Bomzh]Canada #34'
   type: vless
   server: 104.24.152.211
   port: 8880
@@ -754,7 +708,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: misty-hill-4b94.146-c18.workers.dev
-- name: '🇨🇦[Bomzh]Canada #37'
+- name: '🇨🇦[Bomzh]Canada #35'
   type: vless
   server: 172.67.187.219
   port: 8880
@@ -765,7 +719,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: delicate-base-12ed.287-133.workers.dev
-- name: '🇨🇦[Bomzh]Canada #38'
+- name: '🇨🇦[Bomzh]Canada #36'
   type: vless
   server: 104.26.13.40
   port: 8880
@@ -776,7 +730,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: aged-pine-d8c4.379.workers.dev
-- name: '🇨🇦[Bomzh]Canada #39'
+- name: '🇨🇦[Bomzh]Canada #37'
   type: vless
   server: 172.66.214.247
   port: 8880
@@ -787,35 +741,44 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: sweet-sun-c70f.317-ba5.workers.dev
-- name: '🇨🇦[Bomzh]Canada #40'
+- name: '🇨🇦[Bomzh]Canada #38'
   type: ss
   server: 137.184.174.93
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: '🇨🇦[Bomzh]Canada #41'
+- name: '🇨🇦[Bomzh]Canada #39'
   type: ss
   server: 35.182.250.193
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: '🇨🇦[Bomzh]Canada #42'
+- name: '🇨🇦[Bomzh]Canada #40'
+  type: ss
+  server: 3.96.124.46
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: '🇨🇦[Bomzh]Canada #41'
   type: vless
-  server: 104.17.111.27
-  port: 8443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  server: 188.114.97.3
+  port: 443
+  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
   udp: true
   tls: true
-  servername: round-art-52ee.eadfgv.workers.dev
+  servername: KIeVH9yXcGg14-GY4wXqCAV0pegKd.D-0EZpK5xP5wk8ltDgb6EVLPGC-jin.WORkeRS.Dev
   client-fingerprint: chrome
+  alpn:
+  - http/1.1
   network: ws
   ws-opts:
-    path: /
+    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
     headers:
-      Host: round-art-52ee.eadfgv.workers.dev
-- name: '🇨🇦[Bomzh]Canada #43'
+      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
+- name: '🇨🇦[Bomzh]Canada #42'
   type: vless
   server: 188.114.98.0
   port: 2083
@@ -829,37 +792,7 @@ proxies:
     path: /
     headers:
       Host: old-sky-2b90.seyowkclient.workers.dev
-- name: '🇨🇦[Bomzh]Canada #44'
-  type: vless
-  server: 104.17.169.13
-  port: 2053
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  udp: true
-  tls: true
-  servername: inDeX.HaRMONiCA01.WORkers.DeV
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /axch1mttbxz2k55y01
-    headers:
-      Host: inDeX.HaRMONiCA01.WORkers.DeV
-- name: '🇨🇦[Bomzh]Canada #45'
-  type: vless
-  server: 188.114.98.54
-  port: 443
-  uuid: 3bb6fd82-3a15-eaea-6168-4dac2b70079e
-  udp: true
-  tls: true
-  servername: nahan-fog-af01.dfghttr2012.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-fog-af01.dfghttr2012.workers.dev
-- name: '🇨🇦[Bomzh]Canada #46'
+- name: '🇨🇦[Bomzh]Canada #43'
   type: vless
   server: 104.16.3.189
   port: 443
@@ -873,7 +806,21 @@ proxies:
     path: /sync
     headers:
       Host: ezpanslll.samankarami0686.workers.dev
-- name: '🇨🇦[Bomzh]Canada #47'
+- name: '🇨🇦[Bomzh]Canada #44'
+  type: vless
+  server: 104.17.103.53
+  port: 8443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  udp: true
+  tls: true
+  servername: round-art-52ee.eadfgv.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: round-art-52ee.eadfgv.workers.dev
+- name: '🇨🇦[Bomzh]Canada #45'
   type: vless
   server: 104.16.72.30
   port: 443
@@ -887,7 +834,7 @@ proxies:
     path: /xiron
     headers:
       Host: xstack.mahanfixe.workers.dev
-- name: '🇨🇦[Bomzh]Canada #48'
+- name: '🇨🇦[Bomzh]Canada #46'
   type: vless
   server: 188.114.97.7
   port: 443
@@ -903,6 +850,32 @@ proxies:
     path: /
     headers:
       Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+- name: '🇨🇦[Bomzh]Canada #47'
+  type: vless
+  server: 104.16.228.202
+  port: 2053
+  uuid: 50414e45-4c5f-5a45-5553-e0dfede8abc0
+  udp: true
+  tls: true
+  servername: xoz60debusrs.lezuwaeiunjs.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/e0dfede8abc0
+    headers:
+      Host: xoz60debusrs.lezuwaeiunjs.workers.dev
+- name: '🇨🇦[Bomzh]Canada #48'
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: b82a5521-f45f-4d40-92df-86d236eb04f4
+  udp: true
+  tls: true
+  servername: www.google.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: Xgn5Vcz-gtFFJXJWnGvn22m3Fc2TwoCFLUy_acTQdm8
+    short-id: 5653d14b657a1d0b
 - name: '🇨🇦[Bomzh]Canada #49'
   type: vless
   server: cfip.1323123.xyz
@@ -921,46 +894,6 @@ proxies:
       Host: ez-5b038e.ezaccess1c7f862.workers.dev
 - name: '🇨🇦[Bomzh]Canada #50'
   type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: b82a5521-f45f-4d40-92df-86d236eb04f4
-  udp: true
-  tls: true
-  servername: www.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Xgn5Vcz-gtFFJXJWnGvn22m3Fc2TwoCFLUy_acTQdm8
-    short-id: 5653d14b657a1d0b
-- name: '🇨🇦[Bomzh]Canada #51'
-  type: vless
-  server: 104.16.228.202
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-e0dfede8abc0
-  udp: true
-  tls: true
-  servername: xoz60debusrs.lezuwaeiunjs.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/e0dfede8abc0
-    headers:
-      Host: xoz60debusrs.lezuwaeiunjs.workers.dev
-- name: '🇨🇦[Bomzh]Canada #52'
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: a88e61a0-2b38-f6df-c5c7-d20600000000
-  udp: true
-  tls: true
-  servername: netlivpn5002.whwbbb.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
-    headers:
-      Host: netlivpn5002.whwbbb.workers.dev
-- name: '🇨🇦[Bomzh]Canada #53'
-  type: vless
   server: 104.17.3.81
   port: 443
   uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
@@ -973,7 +906,7 @@ proxies:
     path: /138.2.74.219-28616
     headers:
       Host: nautica-cff.kloningstrife002.workers.dev
-- name: '🇨🇦[Bomzh]Canada #54'
+- name: '🇨🇦[Bomzh]Canada #51'
   type: vless
   server: maple.adaspoloandco.com
   port: 8443
@@ -985,7 +918,7 @@ proxies:
   network: ws
   ws-opts:
     path: /uploader.php
-- name: '🇨🇦[Bomzh]Canada #55'
+- name: '🇨🇦[Bomzh]Canada #52'
   type: vless
   server: 172.67.184.37
   port: 8880
@@ -996,7 +929,7 @@ proxies:
     path: /
     headers:
       Host: icy-snowflake-1f56.147-1ea.workers.dev
-- name: '🇨🇦[Bomzh]Canada #56'
+- name: '🇨🇦[Bomzh]Canada #53'
   type: vless
   server: 162.159.140.78
   port: 8880
@@ -1007,7 +940,7 @@ proxies:
     path: '/pyip=ProxyIP.SG.CMLiussss.net '
     headers:
       Host: damp-sky-9aaa.224-8b4.workers.dev
-- name: '🇨🇦[Bomzh]Canada #57'
+- name: '🇨🇦[Bomzh]Canada #54'
   type: vless
   server: 172.64.144.180
   port: 8880
@@ -1018,7 +951,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: young-term-5783.284.workers.dev
-- name: '🇨🇦[Bomzh]Canada #58'
+- name: '🇨🇦[Bomzh]Canada #55'
   type: vless
   server: 172.66.132.196
   port: 8880
@@ -1029,7 +962,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: dark-dew-c3ed.48-97c.workers.dev
-- name: '🇨🇦[Bomzh]Canada #59'
+- name: '🇨🇦[Bomzh]Canada #56'
   type: vless
   server: 104.16.240.17
   port: 443
@@ -1043,7 +976,7 @@ proxies:
     path: /auth/trade
     headers:
       Host: d39333476.pages.dev
-- name: '🇨🇦[Bomzh]Canada #60'
+- name: '🇨🇦[Bomzh]Canada #57'
   type: vless
   server: 172.67.173.75
   port: 80
@@ -1054,7 +987,7 @@ proxies:
     path: /vl/D2pryqVs9LAgCYdTK76lsafWY?ed=2560
     headers:
       Host: vkvd8bpskvxgjwdvcidxgoccr.javanbaghe.workers.dev
-- name: '🇨🇦[Bomzh]Canada #61'
+- name: '🇨🇦[Bomzh]Canada #58'
   type: vless
   server: 162.159.0.169
   port: 2086
@@ -1065,7 +998,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #62'
+- name: '🇨🇦[Bomzh]Canada #59'
   type: vless
   server: 104.20.23.154
   port: 8880
@@ -1076,7 +1009,7 @@ proxies:
     path: /pyip
     headers:
       Host: old-truth-de8a.110-187.workers.dev
-- name: '🇨🇦[Bomzh]Canada #63'
+- name: '🇨🇦[Bomzh]Canada #60'
   type: vless
   server: 162.159.48.32
   port: 2095
@@ -1087,7 +1020,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #64'
+- name: '🇨🇦[Bomzh]Canada #61'
   type: vless
   server: 172.64.94.251
   port: 8880
@@ -1098,7 +1031,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: aged-pine-d8c4.379.workers.dev
-- name: '🇨🇦[Bomzh]Canada #65'
+- name: '🇨🇦[Bomzh]Canada #62'
   type: vless
   server: 104.26.13.40
   port: 8880
@@ -1109,7 +1042,7 @@ proxies:
     path: /pyip=proxyip.jp.cmliussss.net
     headers:
       Host: aged-pine-d8c4.379.workers.dev
-- name: '🇨🇦[Bomzh]Canada #66'
+- name: '🇨🇦[Bomzh]Canada #63'
   type: vless
   server: 104.17.178.154
   port: 8880
@@ -1120,7 +1053,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: shiny-waterfall-fa51.300-c6f.workers.dev
-- name: '🇨🇦[Bomzh]Canada #67'
+- name: '🇨🇦[Bomzh]Canada #64'
   type: vless
   server: 172.67.174.37
   port: 8880
@@ -1131,7 +1064,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: throbbing-shape-b190.478-57a.workers.dev
-- name: '🇨🇦[Bomzh]Canada #68'
+- name: '🇨🇦[Bomzh]Canada #65'
   type: vless
   server: 104.21.74.214
   port: 8880
@@ -1142,7 +1075,7 @@ proxies:
     path: /pyip
     headers:
       Host: late-boat-fbd7.152-de6.workers.dev
-- name: '🇨🇦[Bomzh]Canada #69'
+- name: '🇨🇦[Bomzh]Canada #66'
   type: vless
   server: 104.18.208.202
   port: 8880
@@ -1153,7 +1086,7 @@ proxies:
     path: /
     headers:
       Host: blue-water-924c.174-235.workers.dev
-- name: '🇨🇦[Bomzh]Canada #70'
+- name: '🇨🇦[Bomzh]Canada #67'
   type: vless
   server: 172.64.147.143
   port: 8880
@@ -1164,7 +1097,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #71'
+- name: '🇨🇦[Bomzh]Canada #68'
   type: vless
   server: 104.26.13.23
   port: 8880
@@ -1175,7 +1108,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: shiny-flower-c72d.105-161.workers.dev
-- name: '🇨🇦[Bomzh]Canada #72'
+- name: '🇨🇦[Bomzh]Canada #69'
   type: vless
   server: 172.67.161.104
   port: 8880
@@ -1186,7 +1119,7 @@ proxies:
     path: /
     headers:
       Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇨🇦[Bomzh]Canada #73'
+- name: '🇨🇦[Bomzh]Canada #70'
   type: vless
   server: 172.67.68.240
   port: 8880
@@ -1197,7 +1130,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: dawn-mode-a061.444-a0e.workers.dev
-- name: '🇨🇦[Bomzh]Canada #74'
+- name: '🇨🇦[Bomzh]Canada #71'
   type: vless
   server: 172.64.147.180
   port: 8880
@@ -1208,7 +1141,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #75'
+- name: '🇨🇦[Bomzh]Canada #72'
   type: vless
   server: 172.64.229.170
   port: 80
@@ -1219,7 +1152,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #76'
+- name: '🇨🇦[Bomzh]Canada #73'
   type: vless
   server: 104.18.39.218
   port: 2052
@@ -1230,7 +1163,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #77'
+- name: '🇨🇦[Bomzh]Canada #74'
   type: vless
   server: 172.64.52.6
   port: 8880
@@ -1241,7 +1174,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #78'
+- name: '🇨🇦[Bomzh]Canada #75'
   type: vless
   server: 104.21.55.123
   port: 80
@@ -1252,7 +1185,7 @@ proxies:
     path: /sync
     headers:
       Host: restless-boat-ebf2.moha102030.workers.dev
-- name: '🇨🇦[Bomzh]Canada #79'
+- name: '🇨🇦[Bomzh]Canada #76'
   type: vless
   server: 172.67.133.170
   port: 8080
@@ -1263,7 +1196,7 @@ proxies:
     path: /sync
     headers:
       Host: peekconfigg.vipserver1-39d.workers.dev
-- name: '🇨🇦[Bomzh]Canada #80'
+- name: '🇨🇦[Bomzh]Canada #77'
   type: vless
   server: 104.18.185.26
   port: 8880
@@ -1274,7 +1207,7 @@ proxies:
     path: /
     headers:
       Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇨🇦[Bomzh]Canada #81'
+- name: '🇨🇦[Bomzh]Canada #78'
   type: vless
   server: 188.114.98.112
   port: 80
@@ -1285,7 +1218,7 @@ proxies:
     path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
     headers:
       Host: elenaaaaaaaaaa.cloudns.pro.
-- name: '🇨🇦[Bomzh]Canada #82'
+- name: '🇨🇦[Bomzh]Canada #79'
   type: vless
   server: 104.19.146.207
   port: 8880
@@ -1296,7 +1229,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: blue-breeze-e33c.261.workers.dev
-- name: '🇨🇦[Bomzh]Canada #83'
+- name: '🇨🇦[Bomzh]Canada #80'
   type: vless
   server: 104.24.152.211
   port: 8880
@@ -1307,7 +1240,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: lively-pine-093d.144-868.workers.dev
-- name: '🇨🇦[Bomzh]Canada #84'
+- name: '🇨🇦[Bomzh]Canada #81'
   type: vless
   server: 172.67.190.141
   port: 8880
@@ -1318,7 +1251,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: dark-dew-c3ed.48-97c.workers.dev
-- name: '🇨🇦[Bomzh]Canada #85'
+- name: '🇨🇦[Bomzh]Canada #82'
   type: vless
   server: 172.64.146.129
   port: 8880
@@ -1329,7 +1262,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #86'
+- name: '🇨🇦[Bomzh]Canada #83'
   type: vless
   server: 172.64.146.237
   port: 8880
@@ -1340,7 +1273,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #87'
+- name: '🇨🇦[Bomzh]Canada #84'
   type: vless
   server: 104.26.6.214
   port: 8880
@@ -1351,7 +1284,7 @@ proxies:
     path: '/pyip=proxyip.sg.cmliussss.net '
     headers:
       Host: round-term-947c.41-332.workers.dev
-- name: '🇨🇦[Bomzh]Canada #88'
+- name: '🇨🇦[Bomzh]Canada #85'
   type: vless
   server: 172.64.147.255
   port: 8880
@@ -1362,7 +1295,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #89'
+- name: '🇨🇦[Bomzh]Canada #86'
   type: vless
   server: 172.67.143.54
   port: 2086
@@ -1373,7 +1306,7 @@ proxies:
     path: /taha3
     headers:
       Host: aged-silence-8d7d.tahaggs.workers.dev
-- name: '🇨🇦[Bomzh]Canada #90'
+- name: '🇨🇦[Bomzh]Canada #87'
   type: vless
   server: 104.27.2.172
   port: 80
@@ -1384,18 +1317,7 @@ proxies:
     path: /sync
     headers:
       Host: billowing-surf-d251.netizo06.workers.dev
-- name: '🇨🇦[Bomzh]Canada #91'
-  type: vless
-  server: 172.67.207.26
-  port: 8880
-  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: weathered-hat-76a5.380-d00.workers.dev
-- name: '🇨🇦[Bomzh]Canada #92'
+- name: '🇨🇦[Bomzh]Canada #88'
   type: vless
   server: 104.18.46.234
   port: 2082
@@ -1406,7 +1328,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #93'
+- name: '🇨🇦[Bomzh]Canada #89'
   type: vless
   server: 172.67.152.71
   port: 8880
@@ -1417,7 +1339,7 @@ proxies:
     path: /
     headers:
       Host: polished-field-4448.186-705.workers.dev
-- name: '🇨🇦[Bomzh]Canada #94'
+- name: '🇨🇦[Bomzh]Canada #90'
   type: vless
   server: 104.17.21.32
   port: 8880
@@ -1428,7 +1350,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: icy-rice-3c1c.340-680.workers.dev
-- name: '🇨🇦[Bomzh]Canada #95'
+- name: '🇨🇦[Bomzh]Canada #91'
   type: vless
   server: 172.64.158.146
   port: 2095
@@ -1439,7 +1361,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #96'
+- name: '🇨🇦[Bomzh]Canada #92'
   type: vless
   server: 104.26.7.214
   port: 8880
@@ -1450,7 +1372,7 @@ proxies:
     path: /
     headers:
       Host: cold-water-945c.43-bc5.workers.dev
-- name: '🇨🇦[Bomzh]Canada #97'
+- name: '🇨🇦[Bomzh]Canada #93'
   type: vless
   server: 104.18.34.245
   port: 8880
@@ -1461,7 +1383,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: white-hill-f907.23-b68.workers.dev
-- name: '🇨🇦[Bomzh]Canada #98'
+- name: '🇨🇦[Bomzh]Canada #94'
   type: vless
   server: 172.64.146.21
   port: 8880
@@ -1472,7 +1394,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #99'
+- name: '🇨🇦[Bomzh]Canada #95'
   type: vless
   server: 188.114.98.134
   port: 443
@@ -1486,40 +1408,7 @@ proxies:
     path: /
     headers:
       Host: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
-- name: '🇨🇦[Bomzh]Canada #100'
-  type: vless
-  server: 172.64.32.108
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #101'
-  type: vless
-  server: 104.21.12.116
-  port: 8880
-  uuid: df26029b-bffe-4ce2-9246-25b52ed2b1c7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: polished-field-4448.186-705.workers.dev
-- name: '🇨🇦[Bomzh]Canada #102'
-  type: vless
-  server: 104.18.13.229
-  port: 8880
-  uuid: 380de97f-1d87-4394-acb8-f9ad7a422ac1
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: proud-recipe-239d.305-0da.workers.dev
-- name: '🇨🇦[Bomzh]Canada #103'
+- name: '🇨🇦[Bomzh]Canada #96'
   type: vless
   server: 104.21.15.212
   port: 8880
@@ -1530,7 +1419,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: weathered-truth-581a.383.workers.dev
-- name: '🇨🇦[Bomzh]Canada #104'
+- name: '🇨🇦[Bomzh]Canada #97'
   type: vless
   server: 172.67.65.56
   port: 2053
@@ -1544,18 +1433,7 @@ proxies:
     path: /proxyip=ProxyIP.SG.CMLiussss.Net
     headers:
       Host: whitecreeper.pages.dev
-- name: '🇨🇦[Bomzh]Canada #105'
-  type: vless
-  server: 172.67.209.127
-  port: 8880
-  uuid: 25844c02-a1fe-43ec-a6b9-44e3bf375b83
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: dark-breeze-a59a.494.workers.dev
-- name: '🇨🇦[Bomzh]Canada #106'
+- name: '🇨🇦[Bomzh]Canada #98'
   type: vless
   server: 104.16.72.21
   port: 8880
@@ -1566,29 +1444,7 @@ proxies:
     path: /pyip
     headers:
       Host: royal-shape-3771.93-728.workers.dev
-- name: '🇨🇦[Bomzh]Canada #107'
-  type: vless
-  server: 104.16.97.215
-  port: 8880
-  uuid: 0c13ef54-3890-4bbc-baec-e80335db9fe7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: plain-dawn-765f.452.workers.dev
-- name: '🇨🇦[Bomzh]Canada #108'
-  type: vless
-  server: 104.18.12.229
-  port: 8880
-  uuid: 4af06e6a-63ae-43c1-83c0-f8f613aef263
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: withered-sea-c187.445-608.workers.dev
-- name: '🇨🇦[Bomzh]Canada #109'
+- name: '🇨🇦[Bomzh]Canada #99'
   type: vless
   server: 104.18.42.163
   port: 8880
@@ -1599,7 +1455,7 @@ proxies:
     path: /
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #110'
+- name: '🇨🇦[Bomzh]Canada #100'
   type: vless
   server: 104.18.47.113
   port: 2086
@@ -1610,7 +1466,18 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #111'
+- name: '🇨🇦[Bomzh]Canada #101'
+  type: vless
+  server: 104.16.98.215
+  port: 8880
+  uuid: ce977d82-824b-4209-87f1-0719f78d6a2e
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: royal-mode-cf74.210-62d.workers.dev
+- name: '🇨🇦[Bomzh]Canada #102'
   type: vless
   server: 172.64.153.11
   port: 8880
@@ -1621,7 +1488,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: white-hill-f907.23-b68.workers.dev
-- name: '🇨🇦[Bomzh]Canada #112'
+- name: '🇨🇦[Bomzh]Canada #103'
   type: vless
   server: 104.17.98.115
   port: 2083
@@ -1635,7 +1502,7 @@ proxies:
     path: /help/content/m
     headers:
       Host: d39333476.pages.dev
-- name: '🇨🇦[Bomzh]Canada #113'
+- name: '🇨🇦[Bomzh]Canada #104'
   type: vless
   server: 104.21.227.134
   port: 8880
@@ -1646,29 +1513,7 @@ proxies:
     path: /
     headers:
       Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇨🇦[Bomzh]Canada #114'
-  type: vless
-  server: lively-pine-093d.144-868.workers.dev
-  port: 8880
-  uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: lively-pine-093d.144-868.workers.dev
-- name: '🇨🇦[Bomzh]Canada #115'
-  type: vless
-  server: 104.18.36.122
-  port: 8880
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: super-feather-91c4.267.workers.dev
-- name: '🇨🇦[Bomzh]Canada #116'
+- name: '🇨🇦[Bomzh]Canada #105'
   type: vless
   server: 104.16.99.215
   port: 8880
@@ -1679,7 +1524,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: plain-dawn-765f.452.workers.dev
-- name: '🇨🇦[Bomzh]Canada #117'
+- name: '🇨🇦[Bomzh]Canada #106'
   type: vless
   server: 104.16.72.41
   port: 8880
@@ -1690,7 +1535,7 @@ proxies:
     path: /pyip
     headers:
       Host: summer-butterfly-cbc8.26-971.workers.dev
-- name: '🇨🇦[Bomzh]Canada #118'
+- name: '🇨🇦[Bomzh]Canada #107'
   type: vless
   server: 104.18.34.14
   port: 2086
@@ -1701,7 +1546,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #119'
+- name: '🇨🇦[Bomzh]Canada #108'
   type: vless
   server: 172.64.146.1
   port: 8880
@@ -1712,7 +1557,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #120'
+- name: '🇨🇦[Bomzh]Canada #109'
   type: vless
   server: 104.16.72.50
   port: 8880
@@ -1723,7 +1568,7 @@ proxies:
     path: /pyip
     headers:
       Host: old-truth-de8a.110-187.workers.dev
-- name: '🇨🇦[Bomzh]Canada #121'
+- name: '🇨🇦[Bomzh]Canada #110'
   type: vless
   server: 104.16.239.191
   port: 8880
@@ -1734,7 +1579,7 @@ proxies:
     path: /
     headers:
       Host: blue-water-924c.174-235.workers.dev
-- name: '🇨🇦[Bomzh]Canada #122'
+- name: '🇨🇦[Bomzh]Canada #111'
   type: vless
   server: 172.64.32.103
   port: 2052
@@ -1745,23 +1590,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #123'
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
-  udp: true
-  tls: true
-  servername: KIeVH9yXcGg14-GY4wXqCAV0pegKd.D-0EZpK5xP5wk8ltDgb6EVLPGC-jin.WORkeRS.Dev
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
-    headers:
-      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
-- name: '🇨🇦[Bomzh]Canada #124'
+- name: '🇨🇦[Bomzh]Canada #112'
   type: vless
   server: 104.18.31.170
   port: 8880
@@ -1772,18 +1601,7 @@ proxies:
     path: /
     headers:
       Host: young-dust-b8d9.31-8ba.workers.dev
-- name: '🇨🇦[Bomzh]Canada #125'
-  type: vless
-  server: 172.66.200.130
-  port: 8880
-  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: shiny-salad-e491.479.workers.dev
-- name: '🇨🇦[Bomzh]Canada #126'
+- name: '🇨🇦[Bomzh]Canada #113'
   type: vless
   server: 104.21.70.21
   port: 8080
@@ -1794,7 +1612,7 @@ proxies:
     path: /
     headers:
       Host: cdn.asshole.eu.cc
-- name: '🇨🇦[Bomzh]Canada #127'
+- name: '🇨🇦[Bomzh]Canada #114'
   type: vless
   server: 104.18.11.118
   port: 8880
@@ -1805,7 +1623,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: black-wildflower-dd92.72-1e8.workers.dev
-- name: '🇨🇦[Bomzh]Canada #128'
+- name: '🇨🇦[Bomzh]Canada #115'
   type: vless
   server: 104.18.1.1
   port: 80
@@ -1816,7 +1634,7 @@ proxies:
     path: /fp=chromefp=chrome
     headers:
       Host: go.iranfree.de5.net
-- name: '🇨🇦[Bomzh]Canada #129'
+- name: '🇨🇦[Bomzh]Canada #116'
   type: vless
   server: 104.18.188.234
   port: 8880
@@ -1827,7 +1645,7 @@ proxies:
     path: /
     headers:
       Host: damp-disk-1ae9.138-c4c.workers.dev
-- name: '🇨🇦[Bomzh]Canada #130'
+- name: '🇨🇦[Bomzh]Canada #117'
   type: vless
   server: 104.17.181.19
   port: 8880
@@ -1838,7 +1656,7 @@ proxies:
     path: '/pyip=ProxyIP.US.CMLiussss.net '
     headers:
       Host: morning-cell-adfc.99-c38.workers.dev
-- name: '🇨🇦[Bomzh]Canada #131'
+- name: '🇨🇦[Bomzh]Canada #118'
   type: vless
   server: 104.18.10.118
   port: 8880
@@ -1849,7 +1667,18 @@ proxies:
     path: /pyip
     headers:
       Host: morning-cell-adfc.99-c38.workers.dev
-- name: '🇨🇦[Bomzh]Canada #132'
+- name: '🇨🇦[Bomzh]Canada #119'
+  type: vless
+  server: 104.18.189.234
+  port: 8880
+  uuid: 8e7ce77a-d889-4dbf-b095-1d0eca88f6dc
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: broad-bread-2a6d.433-b9b.workers.dev
+- name: '🇨🇦[Bomzh]Canada #120'
   type: vless
   server: 104.17.144.29
   port: 8880
@@ -1860,7 +1689,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: sparkling-shadow-481d.342-429.workers.dev
-- name: '🇨🇦[Bomzh]Canada #133'
+- name: '🇨🇦[Bomzh]Canada #121'
   type: vless
   server: 104.16.25.46
   port: 8880
@@ -1871,7 +1700,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: silent-heart-175f.325-a85.workers.dev
-- name: '🇨🇦[Bomzh]Canada #134'
+- name: '🇨🇦[Bomzh]Canada #122'
   type: vless
   server: 104.21.22.16
   port: 2095
@@ -1882,7 +1711,7 @@ proxies:
     path: /
     headers:
       Host: cdn.asshole.eu.cc
-- name: '🇨🇦[Bomzh]Canada #135'
+- name: '🇨🇦[Bomzh]Canada #123'
   type: vless
   server: 104.18.30.170
   port: 8880
@@ -1893,7 +1722,23 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: polished-hall-7427.463-5d2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #136'
+- name: '🇨🇦[Bomzh]Canada #124'
+  type: vless
+  server: 104.17.169.13
+  port: 2053
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  udp: true
+  tls: true
+  servername: inDeX.HaRMONiCA01.WORkers.DeV
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /axch1mttbxz2k55y01
+    headers:
+      Host: inDeX.HaRMONiCA01.WORkers.DeV
+- name: '🇨🇦[Bomzh]Canada #125'
   type: vless
   server: 172.64.229.2
   port: 2052
@@ -1904,7 +1749,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #137'
+- name: '🇨🇦[Bomzh]Canada #126'
   type: vless
   server: 104.17.26.45
   port: 8880
@@ -1915,18 +1760,18 @@ proxies:
     path: /
     headers:
       Host: icy-breeze-126c.211-eb3.workers.dev
-- name: '🇨🇦[Bomzh]Canada #138'
+- name: '🇨🇦[Bomzh]Canada #127'
   type: vless
-  server: 104.17.64.70
+  server: 104.18.32.47
   port: 8880
-  uuid: 3bf2781f-63a2-4c38-ad02-2cc337c2f7fa
+  uuid: 8ddedcc7-6c4e-4df3-a190-ac40926f6694
   udp: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+    path: /pyip
     headers:
-      Host: silent-heart-175f.325-a85.workers.dev
-- name: '🇨🇦[Bomzh]Canada #139'
+      Host: late-boat-fbd7.152-de6.workers.dev
+- name: '🇨🇦[Bomzh]Canada #128'
   type: vless
   server: 104.16.107.139
   port: 8880
@@ -1937,7 +1782,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: tiny-lake-c7f3.16-1af.workers.dev
-- name: '🇨🇦[Bomzh]Canada #140'
+- name: '🇨🇦[Bomzh]Canada #129'
   type: vless
   server: 172.65.90.52
   port: 8880
@@ -1948,7 +1793,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: dark-cake-4743.198-46c.workers.dev
-- name: '🇨🇦[Bomzh]Canada #141'
+- name: '🇨🇦[Bomzh]Canada #130'
   type: vless
   server: 104.17.58.113
   port: 8880
@@ -1959,18 +1804,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: dry-violet-d6e0.38-431.workers.dev
-- name: '🇨🇦[Bomzh]Canada #142'
-  type: vless
-  server: 172.67.187.219
-  port: 8880
-  uuid: f32b0ea8-5b9f-4ee2-b20c-0bdfd2057e1d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: throbbing-shape-b190.478-57a.workers.dev
-- name: '🇨🇦[Bomzh]Canada #143'
+- name: '🇨🇦[Bomzh]Canada #131'
   type: vless
   server: 104.18.2.186
   port: 2095
@@ -1981,7 +1815,7 @@ proxies:
     path: /
     headers:
       Host: update.asshole.eu.cc
-- name: '🇨🇦[Bomzh]Canada #144'
+- name: '🇨🇦[Bomzh]Canada #132'
   type: vless
   server: 104.17.123.204
   port: 8880
@@ -1992,7 +1826,7 @@ proxies:
     path: /
     headers:
       Host: long-firefly-a226.216-ce0.workers.dev
-- name: '🇨🇦[Bomzh]Canada #145'
+- name: '🇨🇦[Bomzh]Canada #133'
   type: vless
   server: 188.114.96.7
   port: 443
@@ -2008,7 +1842,7 @@ proxies:
     path: /dbJqwUHWfrXV0Z3Q?ed=2560
     headers:
       Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-- name: '🇨🇦[Bomzh]Canada #146'
+- name: '🇨🇦[Bomzh]Canada #134'
   type: vless
   server: 104.17.180.201
   port: 8880
@@ -2019,7 +1853,7 @@ proxies:
     path: /
     headers:
       Host: steep-bread-32f0.92-d12.workers.dev
-- name: '🇨🇦[Bomzh]Canada #147'
+- name: '🇨🇦[Bomzh]Canada #135'
   type: vless
   server: 104.17.25.173
   port: 8880
@@ -2030,18 +1864,40 @@ proxies:
     path: /pyip
     headers:
       Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇨🇦[Bomzh]Canada #148'
+- name: '🇨🇦[Bomzh]Canada #136'
   type: vless
-  server: 104.21.23.72
+  server: 104.17.191.15
   port: 8880
-  uuid: a62a4c64-2270-4d41-828b-2591906c48ba
+  uuid: 812b1aeb-c6f7-43cb-8d8b-981711fea21a
   udp: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+    path: /pyip
     headers:
-      Host: sweet-disk-a026.253-54b.workers.dev
-- name: '🇨🇦[Bomzh]Canada #149'
+      Host: dark-cake-4743.198-46c.workers.dev
+- name: '🇨🇦[Bomzh]Canada #137'
+  type: vless
+  server: 172.66.170.53
+  port: 8880
+  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: summer-snow-c151.320-3ef.workers.dev
+- name: '🇨🇦[Bomzh]Canada #138'
+  type: vless
+  server: 172.65.90.53
+  port: 8880
+  uuid: c04e959d-3b7a-4d4f-881a-935762102704
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: super-darkness-5bfb.298-142.workers.dev
+- name: '🇨🇦[Bomzh]Canada #139'
   type: vless
   server: 104.18.3.186
   port: 2095
@@ -2052,7 +1908,7 @@ proxies:
     path: /
     headers:
       Host: update.asshole.eu.cc
-- name: '🇨🇦[Bomzh]Canada #150'
+- name: '🇨🇦[Bomzh]Canada #140'
   type: vless
   server: 172.64.154.8
   port: 2052
@@ -2063,7 +1919,7 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #151'
+- name: '🇨🇦[Bomzh]Canada #141'
   type: vless
   server: 104.20.6.153
   port: 8880
@@ -2074,7 +1930,7 @@ proxies:
     path: /j100sy9wn073cxbvir
     headers:
       Host: index.harmonica02.workers.dev
-- name: '🇨🇦[Bomzh]Canada #152'
+- name: '🇨🇦[Bomzh]Canada #142'
   type: vless
   server: 172.64.53.55
   port: 2095
@@ -2085,7 +1941,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #153'
+- name: '🇨🇦[Bomzh]Canada #143'
   type: vless
   server: 172.67.179.98
   port: 8880
@@ -2096,7 +1952,7 @@ proxies:
     path: /
     headers:
       Host: muddy-art-8cda.197-0c6.workers.dev
-- name: '🇨🇦[Bomzh]Canada #154'
+- name: '🇨🇦[Bomzh]Canada #144'
   type: vless
   server: 104.17.170.132
   port: 8880
@@ -2107,7 +1963,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: icy-glade-ad0f.412.workers.dev
-- name: '🇨🇦[Bomzh]Canada #155'
+- name: '🇨🇦[Bomzh]Canada #145'
   type: vless
   server: 172.64.42.85
   port: 2052
@@ -2118,18 +1974,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #156'
-  type: vless
-  server: 104.18.43.76
-  port: 8880
-  uuid: 80f083d3-8348-4514-b075-62f303b7fd86
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: young-term-5783.284.workers.dev
-- name: '🇨🇦[Bomzh]Canada #157'
+- name: '🇨🇦[Bomzh]Canada #146'
   type: vless
   server: 104.18.46.46
   port: 8080
@@ -2140,18 +1985,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #158'
-  type: vless
-  server: 104.21.5.173
-  port: 8080
-  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
-  udp: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: peekconfigg.vipserver1-39d.workers.dev
-- name: '🇨🇦[Bomzh]Canada #159'
+- name: '🇨🇦[Bomzh]Canada #147'
   type: vless
   server: 104.17.101.139
   port: 8880
@@ -2162,7 +1996,7 @@ proxies:
     path: /
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #160'
+- name: '🇨🇦[Bomzh]Canada #148'
   type: vless
   server: 104.17.21.137
   port: 8880
@@ -2173,7 +2007,7 @@ proxies:
     path: '/pyip=ProxyIP.US.CMLiussss.net '
     headers:
       Host: lingering-grass-6728.131-a78.workers.dev
-- name: '🇨🇦[Bomzh]Canada #161'
+- name: '🇨🇦[Bomzh]Canada #149'
   type: vless
   server: 172.64.88.168
   port: 8880
@@ -2184,7 +2018,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: wild-math-3ef2.439.workers.dev
-- name: '🇨🇦[Bomzh]Canada #162'
+- name: '🇨🇦[Bomzh]Canada #150'
   type: vless
   server: one-for-all.levikogjgfdd.ir
   port: 8880
@@ -2195,7 +2029,7 @@ proxies:
     path: /pyip
     headers:
       Host: wild-frog-54a9.170-dcc.workers.dev
-- name: '🇨🇦[Bomzh]Canada #163'
+- name: '🇨🇦[Bomzh]Canada #151'
   type: vless
   server: 172.66.140.62
   port: 8880
@@ -2206,7 +2040,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: throbbing-shape-b190.478-57a.workers.dev
-- name: '🇨🇦[Bomzh]Canada #164'
+- name: '🇨🇦[Bomzh]Canada #152'
   type: vless
   server: 104.20.37.53
   port: 80
@@ -2217,7 +2051,7 @@ proxies:
     path: /stream/TrexBridge/b52a90ada6ab
     headers:
       Host: trex-panel-ew6n46.zeus-e0oqfp.workers.dev
-- name: '🇨🇦[Bomzh]Canada #165'
+- name: '🇨🇦[Bomzh]Canada #153'
   type: vless
   server: 162.159.24.131
   port: 2086
@@ -2228,7 +2062,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #166'
+- name: '🇨🇦[Bomzh]Canada #154'
   type: vless
   server: 104.21.88.129
   port: 8880
@@ -2239,7 +2073,7 @@ proxies:
     path: /
     headers:
       Host: muddy-art-8cda.197-0c6.workers.dev
-- name: '🇨🇦[Bomzh]Canada #167'
+- name: '🇨🇦[Bomzh]Canada #155'
   type: vless
   server: 104.21.89.181
   port: 8880
@@ -2250,7 +2084,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: purple-disk-f68d.14-360.workers.dev
-- name: '🇨🇦[Bomzh]Canada #168'
+- name: '🇨🇦[Bomzh]Canada #156'
   type: vless
   server: 104.20.28.74
   port: 8880
@@ -2261,7 +2095,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: flat-fire-40ed.96-042.workers.dev
-- name: '🇨🇦[Bomzh]Canada #169'
+- name: '🇨🇦[Bomzh]Canada #157'
   type: vless
   server: 104.19.110.205
   port: 80
@@ -2272,7 +2106,7 @@ proxies:
     path: /stream/TrexBridge/b52a90ada6ab
     headers:
       Host: trex-panel-ew6n46.zeus-e0oqfp.workers.dev
-- name: '🇨🇦[Bomzh]Canada #170'
+- name: '🇨🇦[Bomzh]Canada #158'
   type: vless
   server: 104.25.244.62
   port: 80
@@ -2283,18 +2117,7 @@ proxies:
     path: /sync
     headers:
       Host: abolfazl-1.danayyabwalfdl6.workers.dev
-- name: '🇨🇦[Bomzh]Canada #171'
-  type: vless
-  server: 104.16.106.213
-  port: 8880
-  uuid: a62a4c64-2270-4d41-828b-2591906c48ba
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-disk-a026.253-54b.workers.dev
-- name: '🇨🇦[Bomzh]Canada #172'
+- name: '🇨🇦[Bomzh]Canada #159'
   type: vless
   server: 173.245.49.114
   port: 2086
@@ -2305,7 +2128,7 @@ proxies:
     path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==
     headers:
       Host: misty-bread-fd96.salehinezhadali.workers.dev
-- name: '🇨🇦[Bomzh]Canada #173'
+- name: '🇨🇦[Bomzh]Canada #160'
   type: vless
   server: 104.21.51.189
   port: 8880
@@ -2316,18 +2139,7 @@ proxies:
     path: /
     headers:
       Host: icy-snowflake-1f56.147-1ea.workers.dev
-- name: '🇨🇦[Bomzh]Canada #174'
-  type: vless
-  server: 172.64.151.134
-  port: 8880
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: super-feather-91c4.267.workers.dev
-- name: '🇨🇦[Bomzh]Canada #175'
+- name: '🇨🇦[Bomzh]Canada #161'
   type: vless
   server: 104.16.72.101
   port: 8880
@@ -2338,7 +2150,7 @@ proxies:
     path: /pyip
     headers:
       Host: royal-shape-3771.93-728.workers.dev
-- name: '🇨🇦[Bomzh]Canada #176'
+- name: '🇨🇦[Bomzh]Canada #162'
   type: vless
   server: 104.21.55.229
   port: 8880
@@ -2349,7 +2161,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: quiet-waterfall-e914.180-ac4.workers.dev
-- name: '🇨🇦[Bomzh]Canada #177'
+- name: '🇨🇦[Bomzh]Canada #163'
   type: vless
   server: 172.64.147.210
   port: 8880
@@ -2360,7 +2172,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #178'
+- name: '🇨🇦[Bomzh]Canada #164'
   type: vless
   server: 104.21.39.47
   port: 8080
@@ -2371,7 +2183,7 @@ proxies:
     path: /taha3
     headers:
       Host: aged-silence-8d7d.tahaggs.workers.dev
-- name: '🇨🇦[Bomzh]Canada #179'
+- name: '🇨🇦[Bomzh]Canada #165'
   type: vless
   server: 172.67.81.7
   port: 8880
@@ -2382,7 +2194,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: flat-butterfly-d503.411-d1e.workers.dev
-- name: '🇨🇦[Bomzh]Canada #180'
+- name: '🇨🇦[Bomzh]Canada #166'
   type: vless
   server: 104.16.250.22
   port: 8880
@@ -2393,7 +2205,7 @@ proxies:
     path: /
     headers:
       Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇨🇦[Bomzh]Canada #181'
+- name: '🇨🇦[Bomzh]Canada #167'
   type: vless
   server: 172.64.147.85
   port: 80
@@ -2404,7 +2216,7 @@ proxies:
     path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
     headers:
       Host: elenaaaaaaaaaa.cloudns.pro
-- name: '🇨🇦[Bomzh]Canada #182'
+- name: '🇨🇦[Bomzh]Canada #168'
   type: vless
   server: 104.16.72.110
   port: 80
@@ -2415,7 +2227,7 @@ proxies:
     path: /http
     headers:
       Host: de.vpnbase.net
-- name: '🇨🇦[Bomzh]Canada #183'
+- name: '🇨🇦[Bomzh]Canada #169'
   type: vless
   server: 172.64.88.251
   port: 8880
@@ -2426,7 +2238,7 @@ proxies:
     path: '/ '
     headers:
       Host: patient-cake-39c7.44-e7a.workers.dev
-- name: '🇨🇦[Bomzh]Canada #184'
+- name: '🇨🇦[Bomzh]Canada #170'
   type: vless
   server: 104.16.8.66
   port: 8880
@@ -2437,7 +2249,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: broad-truth-e988.258-217.workers.dev
-- name: '🇨🇦[Bomzh]Canada #185'
+- name: '🇨🇦[Bomzh]Canada #171'
   type: vless
   server: 104.18.39.196
   port: 8880
@@ -2448,7 +2260,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: red-disk-58df.153-2ce.workers.dev
-- name: '🇨🇦[Bomzh]Canada #186'
+- name: '🇨🇦[Bomzh]Canada #172'
   type: vless
   server: 172.67.201.213
   port: 2095
@@ -2459,18 +2271,7 @@ proxies:
     path: /
     headers:
       Host: cdn.asshole.eu.cc
-- name: '🇨🇦[Bomzh]Canada #187'
-  type: vless
-  server: 104.16.101.215
-  port: 8880
-  uuid: 20f21d96-3700-46d9-9f63-5933403c0c18
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: restless-math-7bde.299-75c.workers.dev
-- name: '🇨🇦[Bomzh]Canada #188'
+- name: '🇨🇦[Bomzh]Canada #173'
   type: vless
   server: 104.17.160.187
   port: 443
@@ -2484,7 +2285,7 @@ proxies:
     path: /wiki/upload
     headers:
       Host: d39333476.pages.dev
-- name: '🇨🇦[Bomzh]Canada #189'
+- name: '🇨🇦[Bomzh]Canada #174'
   type: vless
   server: 104.17.185.207
   port: 8880
@@ -2495,7 +2296,7 @@ proxies:
     path: /
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
-- name: '🇨🇦[Bomzh]Canada #190'
+- name: '🇨🇦[Bomzh]Canada #175'
   type: vless
   server: 162.159.0.53
   port: 2052
@@ -2506,7 +2307,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇨🇦[Bomzh]Canada #191'
+- name: '🇨🇦[Bomzh]Canada #176'
   type: vless
   server: 104.16.100.66
   port: 8880
@@ -2517,18 +2318,7 @@ proxies:
     path: '/pyip=ProxyIP.JP.CMLiussss.net '
     headers:
       Host: billowing-snowflake-f056.63-f14.workers.dev
-- name: '🇨🇦[Bomzh]Canada #192'
-  type: vless
-  server: 172.66.158.115
-  port: 8880
-  uuid: aa7461af-3176-42a3-8974-59930189c521
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: round-block-e864.326.workers.dev
-- name: '🇨🇦[Bomzh]Canada #193'
+- name: '🇨🇦[Bomzh]Canada #177'
   type: vless
   server: 104.16.100.215
   port: 8880
@@ -2539,126 +2329,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: plain-dawn-765f.452.workers.dev
-- name: '🇨🇦[Bomzh]Canada #194'
-  type: trojan
-  server: 188.114.96.3
-  port: 443
-  password: Telegram_healer_config
-  udp: true
-  sni: 6M1RGYiecLMrX9HEf1.z6-0hLNuBjIBWzPa85.wOrkers.DEv
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tr/N61UxT346epoPVmA9xFM6H00?ed=2560
-    headers:
-      Host: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
-- name: '🇨🇦[Bomzh]Canada #195'
-  type: trojan
-  server: 104.19.229.21
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '🇨🇦[Bomzh]Canada #196'
-  type: vless
-  server: 51.161.199.124
-  port: 443
-  uuid: 6c7b03f6-4bd6-4dc3-b125-1100573f199e
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: suetinklerartglass.co.uk
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
-    short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #197'
-  type: vless
-  server: 51.161.199.124
-  port: 443
-  uuid: a014310a-96ad-4b54-8acb-a835a3850552
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: suetinklerartglass.co.uk
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
-    short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #198'
-  type: vless
-  server: 51.161.199.124
-  port: 443
-  uuid: cba066ac-45d9-4bbc-bcbe-672a9faed36b
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: suetinklerartglass.co.uk
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
-    short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #199'
-  type: ss
-  server: 138.197.141.58
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: '🇨🇦[Bomzh]Canada #200'
-  type: vless
-  server: 51.161.199.124
-  port: 443
-  uuid: fea159e1-08e5-4dbe-9ffe-8e8511ca64fe
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: suetinklerartglass.co.uk
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
-    short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #201'
-  type: ss
-  server: 35.182.129.250
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇨🇦[Bomzh]Canada #202'
-  type: ss
-  server: 3.96.144.93
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇨🇦[Bomzh]Canada #203'
-  type: vless
-  server: 51.161.199.124
-  port: 443
-  uuid: f5baa407-9c59-4b5a-82b1-b28698b6f16d
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: suetinklerartglass.co.uk
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
-    short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #204'
-  type: ss
-  server: 15.156.207.22
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇨🇦[Bomzh]Canada #205'
+- name: '🇨🇦[Bomzh]Canada #178'
   type: vless
   server: 51.161.199.124
   port: 443
@@ -2671,7 +2342,80 @@ proxies:
   reality-opts:
     public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
     short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #206'
+- name: '🇨🇦[Bomzh]Canada #179'
+  type: vless
+  server: 51.161.199.124
+  port: 443
+  uuid: da222922-fbd5-4a7f-9c8a-9ba0cc49b527
+  udp: true
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  servername: suetinklerartglass.co.uk
+  client-fingerprint: safari
+  reality-opts:
+    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
+    short-id: 0f4d3210977f51a5
+- name: '🇨🇦[Bomzh]Canada #180'
+  type: vless
+  server: 51.161.199.124
+  port: 443
+  uuid: ff3bb912-0fac-40ce-8d67-084f26826aac
+  udp: true
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  servername: suetinklerartglass.co.uk
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
+    short-id: 0f4d3210977f51a5
+- name: '🇨🇦[Bomzh]Canada #181'
+  type: ss
+  server: 138.197.141.58
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: '🇨🇦[Bomzh]Canada #182'
+  type: ss
+  server: 15.156.207.22
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: '🇨🇦[Bomzh]Canada #183'
+  type: ss
+  server: 35.182.129.250
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: '🇨🇦[Bomzh]Canada #184'
+  type: vless
+  server: 51.161.199.124
+  port: 443
+  uuid: 6c7b03f6-4bd6-4dc3-b125-1100573f199e
+  udp: true
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  servername: suetinklerartglass.co.uk
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
+    short-id: 0f4d3210977f51a5
+- name: '🇨🇦[Bomzh]Canada #185'
+  type: vless
+  server: 51.161.199.124
+  port: 443
+  uuid: f5baa407-9c59-4b5a-82b1-b28698b6f16d
+  udp: true
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  servername: suetinklerartglass.co.uk
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
+    short-id: 0f4d3210977f51a5
+- name: '🇨🇦[Bomzh]Canada #186'
   type: vless
   server: 51.161.199.124
   port: 443
@@ -2680,11 +2424,11 @@ proxies:
   flow: xtls-rprx-vision-udp443
   tls: true
   servername: suetinklerartglass.co.uk
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   reality-opts:
     public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
     short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #207'
+- name: '🇨🇦[Bomzh]Canada #187'
   type: vless
   server: 51.161.199.124
   port: 443
@@ -2697,11 +2441,11 @@ proxies:
   reality-opts:
     public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
     short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #208'
+- name: '🇨🇦[Bomzh]Canada #188'
   type: vless
   server: 51.161.199.124
   port: 443
-  uuid: da222922-fbd5-4a7f-9c8a-9ba0cc49b527
+  uuid: aeeff70d-5bf4-48dc-9120-0593eda94cdb
   udp: true
   flow: xtls-rprx-vision-udp443
   tls: true
@@ -2710,11 +2454,18 @@ proxies:
   reality-opts:
     public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
     short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #209'
+- name: '🇨🇦[Bomzh]Canada #189'
+  type: ss
+  server: 16.54.243.229
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: '🇨🇦[Bomzh]Canada #190'
   type: vless
   server: 51.161.199.124
   port: 443
-  uuid: 6a23c91d-4ee1-4e9c-851e-ad079261c02d
+  uuid: cb90334f-8b30-4333-b82d-8f9e2fa1a6dd
   udp: true
   flow: xtls-rprx-vision-udp443
   tls: true
@@ -2723,7 +2474,27 @@ proxies:
   reality-opts:
     public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
     short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #210'
+- name: '🇨🇦[Bomzh]Canada #191'
+  type: ss
+  server: 3.96.144.93
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: '🇨🇦[Bomzh]Canada #192'
+  type: vless
+  server: 51.161.199.124
+  port: 443
+  uuid: fea159e1-08e5-4dbe-9ffe-8e8511ca64fe
+  udp: true
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  servername: suetinklerartglass.co.uk
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
+    short-id: 0f4d3210977f51a5
+- name: '🇨🇦[Bomzh]Canada #193'
   type: vless
   server: 51.161.199.124
   port: 443
@@ -2736,11 +2507,11 @@ proxies:
   reality-opts:
     public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
     short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #211'
+- name: '🇨🇦[Bomzh]Canada #194'
   type: vless
   server: 51.161.199.124
   port: 443
-  uuid: 3622f803-8a8e-407d-9fff-249a2e84b06e
+  uuid: 57f9fc56-5649-48b0-adfc-2483ec77302a
   udp: true
   flow: xtls-rprx-vision-udp443
   tls: true
@@ -2749,34 +2520,7 @@ proxies:
   reality-opts:
     public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
     short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #212'
-  type: ss
-  server: 35.183.18.3
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇨🇦[Bomzh]Canada #213'
-  type: vless
-  server: 51.161.199.124
-  port: 443
-  uuid: a407c73c-acca-4530-97d9-13f99768b6bf
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: suetinklerartglass.co.uk
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
-    short-id: 0f4d3210977f51a5
-- name: '🇨🇦[Bomzh]Canada #214'
-  type: ss
-  server: 16.54.243.229
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇨🇦[Bomzh]Canada #215'
+- name: '🇨🇦[Bomzh]Canada #195'
   type: vless
   server: 104.21.70.21
   port: 443
@@ -2790,18 +2534,7 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf9.rumedia-cdn.com
-- name: '🇨🇦[Bomzh]Canada #216'
-  type: vless
-  server: 104.26.7.214
-  port: 8880
-  uuid: 05e7abc2-46e1-4a23-9cdc-173ce17eb0d4
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: round-term-947c.41-332.workers.dev
-- name: '🇨🇦[Bomzh]Canada #217'
+- name: '🇨🇦[Bomzh]Canada #196'
   type: vless
   server: 172.64.146.66
   port: 8880
@@ -2812,7 +2545,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇨🇦[Bomzh]Canada #218'
+- name: '🇨🇦[Bomzh]Canada #197'
   type: vless
   server: 162.159.152.4
   port: 80
@@ -2866,15 +2599,6 @@ proxies:
   udp: true
 - name: '🇨🇳[Bomzh]China #4'
   type: vless
-  server: dawn-waterfall-6052.360-001.workers.dev
-  port: 8880
-  uuid: f3d7ebbc-03a1-40f9-a911-ae8628d3927a
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '🇨🇳[Bomzh]China #5'
-  type: vless
   server: skk.moe
   port: 8880
   uuid: 4a40e7a6-9179-42c1-9bd7-eefec23a62f8
@@ -2884,15 +2608,6 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: soft-meadow-980a.458.workers.dev
-- name: '🇨🇳[Bomzh]China #6'
-  type: vless
-  server: 81.31.246.124
-  port: 2200
-  uuid: a4d52fe0-f904-48d3-b579-25d5b79c79b2
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
 - name: '🇨🇴[Bomzh]Colombia #1'
   type: vless
   server: 149.130.171.82
@@ -3077,7 +2792,7 @@ proxies:
   type: vless
   server: 185.91.52.223
   port: 444
-  uuid: ec7617c6-dcd5-09c5-843f-5efb1f291afe
+  uuid: 8e676cd1-5497-09c5-b1eb-17df2e347d24
   udp: true
   tls: true
   servername: cdn.selectel.ru
@@ -3092,7 +2807,7 @@ proxies:
   type: vless
   server: 95.163.232.184
   port: 443
-  uuid: ec7617c6-dcd5-09c5-843f-5efb1f291afe
+  uuid: 8e676cd1-5497-09c5-b1eb-17df2e347d24
   udp: true
   tls: true
   servername: cdn.selectel.ru
@@ -3105,17 +2820,6 @@ proxies:
     grpc-service-name: grpc
 - name: '🇫🇷[Bomzh]France #3'
   type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: akamaized.net
-- name: '🇫🇷[Bomzh]France #4'
-  type: vless
   server: 51.77.217.70
   port: 2053
   uuid: fae272a6-a184-4c91-83ed-771abdcff404
@@ -3126,34 +2830,27 @@ proxies:
   reality-opts:
     public-key: 5Me9XEMwr9siyrnV5zPHYfxB3QLqw-OzNAOuzkFu1kw
     short-id: 7af95330630a7327
-- name: '🇫🇷[Bomzh]France #5'
-  type: ss
-  server: 38.180.92.242
-  port: 32245
-  cipher: chacha20-ietf-poly1305
-  password: pFNN9jKe8jwD
-  udp: true
-- name: '🇫🇷[Bomzh]France #6'
+- name: '🇫🇷[Bomzh]France #4'
   type: ss
   server: 95.170.13.47
   port: 65443
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   udp: true
-- name: '🇫🇷[Bomzh]France #7'
+- name: '🇫🇷[Bomzh]France #5'
   type: ss
   server: 51.83.192.80
   port: 8388
   cipher: aes-256-gcm
   password: itzvpn@321
   udp: true
-- name: '🇫🇷[Bomzh]France #8'
+- name: '🇫🇷[Bomzh]France #6'
   type: vless
   server: 108.61.177.236
   port: 32263
   uuid: 1236329f-bc88-43a2-ae3b-7cf63ab1bf11
   udp: true
-- name: '🇫🇷[Bomzh]France #9'
+- name: '🇫🇷[Bomzh]France #7'
   type: vless
   server: 54.37.136.194
   port: 2053
@@ -3165,7 +2862,7 @@ proxies:
   reality-opts:
     public-key: TtGgrgk1OLMjWBaomJ1JkUOvmtMx7sLJdvvN0bxmZF8
     short-id: bdc1efeb01044e93
-- name: '🇫🇷[Bomzh]France #10'
+- name: '🇫🇷[Bomzh]France #8'
   type: vless
   server: sv-fr2.cdnturbo.net
   port: 443
@@ -3178,7 +2875,7 @@ proxies:
   reality-opts:
     public-key: 0jolgptjjXxVsUgMPN_mcoyHET2uHQ7onbAMZ7uCc2w
     short-id: 8d0a77a398415b0e
-- name: '🇫🇷[Bomzh]France #11'
+- name: '🇫🇷[Bomzh]France #9'
   type: vless
   server: 141.101.122.147
   port: 443
@@ -3192,7 +2889,7 @@ proxies:
     path: /ws
     headers:
       Host: a.cwvps.eu.org
-- name: '🇫🇷[Bomzh]France #12'
+- name: '🇫🇷[Bomzh]France #10'
   type: vless
   server: 162.19.10.99
   port: 443
@@ -3202,7 +2899,21 @@ proxies:
   tls: true
   servername: nasnet-162191099-direct.mbghalibaf.com
   client-fingerprint: chrome
-- name: '🇫🇷[Bomzh]France #13'
+- name: '🇫🇷[Bomzh]France #11'
+  type: vless
+  server: 57.128.177.198
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  udp: true
+  tls: true
+  servername: vp58.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /Telegram🇨🇳+@VPNine1
+    headers:
+      Host: vp58.cc.cd
+- name: '🇫🇷[Bomzh]France #12'
   type: vless
   server: cf-vless-4cf55824.aimall.fr
   port: 443
@@ -3216,16 +2927,7 @@ proxies:
     path: /connect
     headers:
       Host: cf-vless-4cf55824.aimall.fr
-- name: '🇫🇷[Bomzh]France #14'
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: '🇫🇷[Bomzh]France #15'
+- name: '🇫🇷[Bomzh]France #13'
   type: vless
   server: summer-hill-7bbd.149-40f.workers.dev
   port: 8880
@@ -3251,7 +2953,7 @@ proxies:
   udp: true
   tls: true
   servername: 5post-gate.x5.ru
-  client-fingerprint: qq
+  client-fingerprint: firefox
   reality-opts:
     public-key: IDjWshY2nmbQJzUme5TMymI-RI99Zku45lO9k1HKyTA
     short-id: 20a080af5636a681
@@ -3275,9 +2977,9 @@ proxies:
     grpc-service-name: grpc-wl
 - name: '🇩🇪[Bomzh]Germany #3'
   type: vless
-  server: 185.91.52.223
-  port: 444
-  uuid: ec7617c6-dcd5-0ac9-843f-5efb1f291afe
+  server: 95.163.232.184
+  port: 443
+  uuid: 8e676cd1-5497-0ac9-b1eb-17df2e347d24
   udp: true
   tls: true
   servername: cdn.selectel.ru
@@ -3290,9 +2992,9 @@ proxies:
     grpc-service-name: grpc
 - name: '🇩🇪[Bomzh]Germany #4'
   type: vless
-  server: 95.163.232.184
-  port: 443
-  uuid: ec7617c6-dcd5-0ac9-843f-5efb1f291afe
+  server: 185.91.52.223
+  port: 444
+  uuid: 8e676cd1-5497-0ac9-b1eb-17df2e347d24
   udp: true
   tls: true
   servername: cdn.selectel.ru
@@ -3304,20 +3006,6 @@ proxies:
   grpc-opts:
     grpc-service-name: grpc
 - name: '🇩🇪[Bomzh]Germany #5'
-  type: vless
-  server: 104.21.6.208
-  port: 443
-  uuid: 2730487f-0ed5-4f04-92d5-f95f9253d4f4
-  udp: true
-  tls: true
-  servername: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: ws
-    headers:
-      Host: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
-- name: '🇩🇪[Bomzh]Germany #6'
   type: vless
   server: 104.18.32.47
   port: 443
@@ -3331,6 +3019,13 @@ proxies:
     path: /aioproxybot/124.153.168.248-50001
     headers:
       Host: aio.zxcore.biz.id
+- name: '🇩🇪[Bomzh]Germany #6'
+  type: ss
+  server: 144.31.168.176
+  port: 45640
+  cipher: chacha20-ietf-poly1305
+  password: eQvKkykBEbCky5p4BVghO0
+  udp: true
 - name: '🇩🇪[Bomzh]Germany #7'
   type: ss
   server: 185.226.172.8
@@ -3424,6 +3119,76 @@ proxies:
       Host: pingoneorg.hydrash.workers.dev
 - name: '🇩🇪[Bomzh]Germany #15'
   type: vless
+  server: 68.183.65.82
+  port: 2083
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  udp: true
+  tls: true
+  servername: lucky-sky-0104.alvlirm444.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucky-sky-0104.alvlirm444.workers.dev
+- name: '🇩🇪[Bomzh]Germany #16'
+  type: vless
+  server: 164.90.166.120
+  port: 443
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  udp: true
+  tls: true
+  servername: damp-dawn-3a96.alvlirm123.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: damp-dawn-3a96.alvlirm123.workers.dev
+- name: '🇩🇪[Bomzh]Germany #17'
+  type: vless
+  server: 80.240.18.227
+  port: 10051
+  uuid: f4d859eb-abc6-4c57-9eee-8fe9e2ef0f94
+  udp: true
+  tls: true
+  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
+- name: '🇩🇪[Bomzh]Germany #18'
+  type: vless
+  server: 5.9.117.252
+  port: 4433
+  uuid: ef286b0e-21ed-4e2b-9110-e2ddc7627892
+  udp: true
+  tls: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: '🇩🇪[Bomzh]Germany #19'
+  type: vless
+  server: 178.104.202.46
+  port: 4433
+  uuid: 7fa84611-065f-477d-be7a-88db3ecdfaca
+  udp: true
+  tls: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: '🇩🇪[Bomzh]Germany #20'
+  type: vless
   server: 46.101.196.101
   port: 2096
   uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
@@ -3438,35 +3203,7 @@ proxies:
     path: /
     headers:
       Host: lucky-sky-0104.alvlirm444.workers.dev
-- name: '🇩🇪[Bomzh]Germany #16'
-  type: vless
-  server: 68.183.65.82
-  port: 2083
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  udp: true
-  tls: true
-  servername: lucky-sky-0104.alvlirm444.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-sky-0104.alvlirm444.workers.dev
-- name: '🇩🇪[Bomzh]Germany #17'
-  type: vless
-  server: 164.90.166.120
-  port: 443
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  udp: true
-  tls: true
-  servername: damp-dawn-3a96.alvlirm123.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: damp-dawn-3a96.alvlirm123.workers.dev
-- name: '🇩🇪[Bomzh]Germany #18'
+- name: '🇩🇪[Bomzh]Germany #21'
   type: vless
   server: 5.75.195.83
   port: 56879
@@ -3480,21 +3217,7 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: '🇩🇪[Bomzh]Germany #19'
-  type: vless
-  server: 5.9.117.252
-  port: 4433
-  uuid: ef286b0e-21ed-4e2b-9110-e2ddc7627892
-  udp: true
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: '🇩🇪[Bomzh]Germany #20'
+- name: '🇩🇪[Bomzh]Germany #22'
   type: vless
   server: 37.120.222.70
   port: 8082
@@ -3508,34 +3231,6 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: '🇩🇪[Bomzh]Germany #21'
-  type: vless
-  server: 178.104.202.46
-  port: 4433
-  uuid: 7fa84611-065f-477d-be7a-88db3ecdfaca
-  udp: true
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: '🇩🇪[Bomzh]Germany #22'
-  type: vless
-  server: 80.240.18.227
-  port: 10051
-  uuid: f4d859eb-abc6-4c57-9eee-8fe9e2ef0f94
-  udp: true
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
 - name: '🇩🇪[Bomzh]Germany #23'
   type: vless
   server: jolly-glitter-123c.196-2b3.workers.dev
@@ -3586,13 +3281,15 @@ proxies:
       Host: ov-germany1.09vpn.com
 - name: '🇩🇪[Bomzh]Germany #27'
   type: vless
-  server: 91.107.190.175
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  server: 57.129.41.216
+  port: 80
+  uuid: 18535741-e8b3-4b43-9348-785b55936751
   udp: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless/
+    headers:
+      Host: ov-germany1.09vpn.com
 - name: '🇩🇪[Bomzh]Germany #28'
   type: vless
   server: 57.129.52.47
@@ -3609,15 +3306,6 @@ proxies:
       Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
 - name: '🇩🇪[Bomzh]Germany #29'
   type: vless
-  server: de.vpnbase.net
-  port: 80
-  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  udp: true
-  network: ws
-  ws-opts:
-    path: /http
-- name: '🇩🇪[Bomzh]Germany #30'
-  type: vless
   server: 167.172.165.106
   port: 2083
   uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
@@ -3630,7 +3318,7 @@ proxies:
     path: /
     headers:
       Host: edge.yzkvm.top
-- name: '🇩🇪[Bomzh]Germany #31'
+- name: '🇩🇪[Bomzh]Germany #30'
   type: vmess
   server: 94.156.170.102
   port: 110
@@ -3638,20 +3326,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: '🇩🇪[Bomzh]Germany #32'
-  type: trojan
-  server: 82.117.245.125
-  port: 2053
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '🇩🇪[Bomzh]Germany #33'
+- name: '🇩🇪[Bomzh]Germany #31'
   type: vless
   server: 91.107.190.63
   port: 8080
@@ -3660,16 +3335,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇩🇪[Bomzh]Germany #34'
-  type: vless
-  server: 91.107.154.19
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🇩🇪[Bomzh]Germany #35'
+- name: '🇩🇪[Bomzh]Germany #32'
   type: vless
   server: 91.107.188.158
   port: 8080
@@ -3678,17 +3344,15 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇩🇪[Bomzh]Germany #36'
+- name: '🇩🇪[Bomzh]Germany #33'
   type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  server: 91.107.154.19
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
   network: ws
   ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
+    path: /
 - name: '🇬🇷[Bomzh]Greece #1'
   type: vless
   server: icy-snowflake-1f56.147-1ea.workers.dev
@@ -3727,22 +3391,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇬🇷[Bomzh]Greece #5'
-  type: vmess
-  server: n1747624274.4u9ma.icu
-  port: 443
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: n1747624274.4u9ma.icu
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: n1747624274.4u9ma.icu
 - name: '🇭🇰[Bomzh]Hong Kong #1'
   type: vless
   server: 2.26.224.233
@@ -3760,10 +3408,10 @@ proxies:
     grpc-service-name: ''
 - name: '🇭🇰[Bomzh]Hong Kong #2'
   type: ss
-  server: 95.40.120.162
-  port: 8319
-  cipher: chacha20-ietf-poly1305
-  password: ljqdalu13..
+  server: 103.149.182.79
+  port: 8388
+  cipher: chacha20-ietf
+  password: asd123456
   udp: true
 - name: '🇭🇰[Bomzh]Hong Kong #3'
   type: ss
@@ -3783,22 +3431,6 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
 - name: '🇭🇰[Bomzh]Hong Kong #5'
   type: vmess
-  server: 47.83.207.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-- name: '🇭🇰[Bomzh]Hong Kong #6'
-  type: vmess
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
@@ -3811,7 +3443,7 @@ proxies:
   network: ws
   ws-opts:
     path: /ws-vmess
-- name: '🇭🇰[Bomzh]Hong Kong #7'
+- name: '🇭🇰[Bomzh]Hong Kong #6'
   type: vmess
   server: u2frxj0g13vdi0wo.v.3dns.vip
   port: 443
@@ -3827,38 +3459,77 @@ proxies:
     path: /ws-vmess
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+- name: '🇭🇰[Bomzh]Hong Kong #7'
+  type: vmess
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: nycqg19zkwacpm1b.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: nycqg19zkwacpm1b.v.3dns.vip
 - name: '🇭🇰[Bomzh]Hong Kong #8'
   type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
+  server: drbkg16egf3fzlm3.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
   tls: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  servername: drbkg16egf3fzlm3.v.3dns.vip
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
 - name: '🇭🇰[Bomzh]Hong Kong #9'
   type: vmess
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  server: 47.76.197.72
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
   tls: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: M01c7B2z26DtQGEe.v.3dns.vip
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: M01c7B2z26DtQGEe.v.3dns.vip
+- name: '🇭🇰[Bomzh]Hong Kong #10'
+  type: vmess
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+- name: '🇭🇰[Bomzh]Hong Kong #11'
+  type: ss
+  server: 103.141.221.101
+  port: 8388
+  cipher: chacha20-ietf
+  password: asd123456
+  udp: true
 - name: '🇮🇸[Bomzh]Iceland #1'
   type: vless
   server: ld.242311.xyz
@@ -3919,32 +3590,21 @@ proxies:
     public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI
     short-id: 221873918e0bb74d
 - name: '🇮🇳[Bomzh]India #3'
-  type: trojan
-  server: 34.131.228.210
-  port: 443
-  password: M7v%w11Se*
-  udp: true
-  sni: hyfuuf6.wsone.icu
-  client-fingerprint: chrome
-- name: '🇮🇳[Bomzh]India #4'
   type: ss
   server: 172.105.39.124
   port: 7002
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: '🇮🇩[Bomzh]Indonesia #1'
-  type: vless
-  server: vpn.renshengxuanze.ccwu.cc
+- name: '🇮🇳[Bomzh]India #4'
+  type: trojan
+  server: hyfuuf6.wsone.icu
   port: 443
-  uuid: 9a3de3e0-2a6e-4bb2-81bd-1a4e51dfa110
+  password: M7v%w11Se*
   udp: true
-  tls: true
+  sni: hyfuuf6.wsone.icu
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🇮🇩[Bomzh]Indonesia #2'
+- name: '🇮🇩[Bomzh]Indonesia #1'
   type: vless
   server: tiny-feather-4c41.227.workers.dev
   port: 8880
@@ -3953,12 +3613,23 @@ proxies:
   network: ws
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '🇮🇩[Bomzh]Indonesia #3'
+- name: '🇮🇩[Bomzh]Indonesia #2'
   type: vless
   server: shrill-frost-6da5.155-dec.workers.dev
   port: 8880
   uuid: 9b7d9618-29a6-45e9-9eca-dcc7ad42f974
   udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: '🇮🇩[Bomzh]Indonesia #3'
+  type: vless
+  server: vpn.renshengxuanze.ccwu.cc
+  port: 443
+  uuid: 9a3de3e0-2a6e-4bb2-81bd-1a4e51dfa110
+  udp: true
+  tls: true
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
@@ -4001,28 +3672,28 @@ proxies:
   udp: true
 - name: '🇮🇪[Bomzh]Ireland #5'
   type: ss
-  server: 54.246.9.69
+  server: 54.247.216.201
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
 - name: '🇮🇪[Bomzh]Ireland #6'
   type: ss
-  server: 52.16.228.57
+  server: 54.246.9.69
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
 - name: '🇮🇪[Bomzh]Ireland #7'
   type: ss
-  server: 54.216.107.30
+  server: 52.16.228.57
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
 - name: '🇮🇪[Bomzh]Ireland #8'
   type: ss
-  server: 54.247.216.201
+  server: 54.216.107.30
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -4132,26 +3803,6 @@ proxies:
       Host: index.arcane509.workers.dev
 - name: '🇮🇹[Bomzh]Italy #7'
   type: vless
-  server: ov-italy1.09vpn.com
-  port: 80
-  uuid: 1e280316-0408-47c4-b058-05b8f1f17f02
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: '🇮🇹[Bomzh]Italy #8'
-  type: vless
-  server: ov-italy1.09vpn.com
-  port: 80
-  uuid: 049e56d8-0ba0-49e3-b764-ee04122b9f00
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-italy1.09vpn.com
-- name: '🇮🇹[Bomzh]Italy #9'
-  type: vless
   server: cf7.466688.xyz
   port: 8880
   uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
@@ -4161,16 +3812,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇮🇹[Bomzh]Italy #10'
-  type: vless
-  server: polished-hall-7427.463-5d2.workers.dev
-  port: 8880
-  uuid: 2e3431ac-0b98-4471-9822-6b7ae94a9a11
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: '🇮🇹[Bomzh]Italy #11'
+- name: '🇮🇹[Bomzh]Italy #8'
   type: vless
   server: 57.131.32.191
   port: 80
@@ -4212,6 +3854,22 @@ proxies:
   password: ma6zc4JoLRJA
   udp: true
 - name: '🇯🇵[Bomzh]Japan #5'
+  type: vmess
+  server: 8.218.184.4
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+- name: '🇯🇵[Bomzh]Japan #6'
   type: vless
   server: 152.69.195.67
   port: 47878
@@ -4260,20 +3918,6 @@ proxies:
       Host: peekconfigg.vipserver1-39d.workers.dev
 - name: '🇱🇻[Bomzh]Latvia #1'
   type: vless
-  server: 212.6.44.65
-  port: 433
-  uuid: 2ee7f84d-f9a7-4151-81b8-9f281b6dd6e1
-  udp: true
-  tls: true
-  servername: 99833.make2000.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 99833.make2000.kdns.fr
-- name: '🇱🇻[Bomzh]Latvia #2'
-  type: vless
   server: lingering-grass-6728.131-a78.workers.dev
   port: 8880
   uuid: 9e648bb6-25f7-4b16-9949-55ac0952d66b
@@ -4281,7 +3925,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇱🇻[Bomzh]Latvia #3'
+- name: '🇱🇻[Bomzh]Latvia #2'
   type: vless
   server: shy-mud-e936.15-bb9.workers.dev
   port: 8880
@@ -4290,7 +3934,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇱🇻[Bomzh]Latvia #4'
+- name: '🇱🇻[Bomzh]Latvia #3'
   type: vless
   server: polished-firefly-3e2d.20-645.workers.dev
   port: 8880
@@ -4303,7 +3947,7 @@ proxies:
   type: vless
   server: 95.129.236.216
   port: 443
-  uuid: 3bf7192e-945c-4990-956b-5ccbc2c1caee
+  uuid: 1ba178de-c12a-4b20-9c13-eaf67cb1d310
   udp: true
   tls: true
   servername: cdnguard.org
@@ -4319,7 +3963,7 @@ proxies:
   type: vless
   server: 185.91.52.223
   port: 444
-  uuid: ec7617c6-dcd5-1131-843f-5efb1f291afe
+  uuid: 8e676cd1-5497-1131-b1eb-17df2e347d24
   udp: true
   tls: true
   servername: cdn.selectel.ru
@@ -4334,7 +3978,7 @@ proxies:
   type: vless
   server: 95.163.232.184
   port: 443
-  uuid: ec7617c6-dcd5-1131-843f-5efb1f291afe
+  uuid: 8e676cd1-5497-1131-b1eb-17df2e347d24
   udp: true
   tls: true
   servername: cdn.selectel.ru
@@ -4346,55 +3990,69 @@ proxies:
   grpc-opts:
     grpc-service-name: grpc
 - name: '🇱🇹[Bomzh]Lithuania #4'
+  type: vless
+  server: soskeynets-base-fe24.alirezahabibi20009.workers.dev
+  port: 443
+  uuid: 4908acbe-485f-4e1c-bb11-5dd04b9f7e88
+  udp: true
+  tls: true
+  servername: restless-base-fe24.alirezahabibi20009.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: restless-base-fe24.alirezahabibi20009.workers.dev
+- name: '🇱🇹[Bomzh]Lithuania #5'
   type: ss
   server: 195.238.126.20
   port: 9078
   cipher: aes-256-cfb
   password: JCJpbRbQZNw9XFZG
   udp: true
-- name: '🇱🇹[Bomzh]Lithuania #5'
+- name: '🇱🇹[Bomzh]Lithuania #6'
   type: ss
   server: 195.238.126.20
   port: 9008
   cipher: aes-256-cfb
   password: y9VURyNzJWNRYEGQ
   udp: true
-- name: '🇱🇹[Bomzh]Lithuania #6'
-  type: ss
-  server: 195.238.126.20
-  port: 9011
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-  udp: true
 - name: '🇱🇹[Bomzh]Lithuania #7'
-  type: ss
-  server: 195.238.126.20
-  port: 9012
-  cipher: aes-256-cfb
-  password: xaupMUvhptwxdDUg
-  udp: true
-- name: '🇱🇹[Bomzh]Lithuania #8'
-  type: ss
-  server: 195.238.126.20
-  port: 9045
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
-  udp: true
-- name: '🇱🇹[Bomzh]Lithuania #9'
   type: ss
   server: 195.238.126.20
   port: 9068
   cipher: aes-256-cfb
   password: mwgRg9hRq3b4Qnwb
   udp: true
+- name: '🇱🇹[Bomzh]Lithuania #8'
+  type: ss
+  server: 195.238.126.20
+  port: 9011
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
+  udp: true
+- name: '🇱🇹[Bomzh]Lithuania #9'
+  type: ss
+  server: 195.238.126.20
+  port: 9012
+  cipher: aes-256-cfb
+  password: xaupMUvhptwxdDUg
+  udp: true
 - name: '🇱🇹[Bomzh]Lithuania #10'
+  type: ss
+  server: 195.238.126.20
+  port: 9045
+  cipher: aes-256-cfb
+  password: Lp27rqyJq72bZsqX
+  udp: true
+- name: '🇱🇹[Bomzh]Lithuania #11'
   type: ss
   server: 195.238.126.20
   port: 9086
   cipher: aes-256-cfb
   password: 37Z4TFCYhfxcpc9Q
   udp: true
-- name: '🇱🇹[Bomzh]Lithuania #11'
+- name: '🇱🇹[Bomzh]Lithuania #12'
   type: ss
   server: 195.238.126.20
   port: 9002
@@ -4441,39 +4099,39 @@ proxies:
       Host: summer-bonus-aa63.52-c03.workers.dev
 - name: '🇲🇪[Bomzh]Montenegro #1'
   type: vless
-  server: 172.67.156.87
+  server: 104.18.74.66
   port: 443
-  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
+  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
   udp: true
   tls: true
-  servername: tO6R63-kkCHIgHQM2.vXZ0dDUq7to7SU0cdQF.wOrKERS.Dev
+  servername: web-app-aug8yr.app-f1qsy1.workers.dev
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-aug8yr.app-f1qsy1.workers.dev
+- name: '🇲🇪[Bomzh]Montenegro #2'
+  type: vless
+  server: 104.21.60.109
+  port: 2083
+  uuid: 89b3cbba-e6ac-4850-94af-061316b04020
+  udp: true
+  tls: true
+  servername: lATE-frOSt-9DA7.SHOAMenI5.wOrkErS.dEv
   client-fingerprint: chrome
   alpn:
   - http/1.1
   network: ws
   ws-opts:
-    path: /vl/VEyizgqHTVJUF3AcZhYc7j0dW3wCfGYE?ed=2560
+    path: /vl/bSbqFirXAWZVvSsBFZyqPIsuI?ed=2560
     headers:
-      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
-- name: '🇲🇪[Bomzh]Montenegro #2'
-  type: vless
-  server: 104.18.34.21
-  port: 8443
-  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
-  udp: true
-  tls: true
-  servername: socks5.revil-time3.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /socks5://128.140.46.169:13482
-    headers:
-      Host: socks5.revil-time3.workers.dev
+      Host: late-frost-9da7.shoameni5.workers.dev
 - name: '🇲🇪[Bomzh]Montenegro #3'
   type: vless
-  server: 104.18.74.66
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
+  server: 104.25.99.169
+  port: 2053
+  uuid: 50414e45-4c5f-5a45-5553-60c86b8747e5
   udp: true
   tls: true
   servername: web-app-aug8yr.app-f1qsy1.workers.dev
@@ -4499,20 +4157,6 @@ proxies:
       Host: hossein.shhrsbzhsyn.workers.dev
 - name: '🇲🇪[Bomzh]Montenegro #5'
   type: vless
-  server: 104.21.123.240
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-60c86b8747e5
-  udp: true
-  tls: true
-  servername: web-app-aug8yr.app-f1qsy1.workers.dev
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-aug8yr.app-f1qsy1.workers.dev
-- name: '🇲🇪[Bomzh]Montenegro #6'
-  type: vless
   server: broken-glitter-6d2f.408-51c.workers.dev
   port: 8880
   uuid: 70853635-5b3e-4561-bd3f-4354b56194de
@@ -4520,7 +4164,7 @@ proxies:
   network: ws
   ws-opts:
     path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '🇲🇪[Bomzh]Montenegro #7'
+- name: '🇲🇪[Bomzh]Montenegro #6'
   type: vless
   server: little-silence-1ee8.449.workers.dev
   port: 8880
@@ -4529,7 +4173,7 @@ proxies:
   network: ws
   ws-opts:
     path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '🇲🇪[Bomzh]Montenegro #8'
+- name: '🇲🇪[Bomzh]Montenegro #7'
   type: vless
   server: late-frost-9da7.shoameni5.workers.dev
   port: 2053
@@ -4545,21 +4189,7 @@ proxies:
     path: /vl/JMvkQ4EADeaxE29yUyd3sL7tS?ed=2560
     headers:
       Host: late-frost-9da7.shoameni5.workers.dev
-- name: '🇲🇪[Bomzh]Montenegro #9'
-  type: vless
-  server: www.4chan.org
-  port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  udp: true
-  tls: true
-  servername: misaka.cndyw.ggff.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560fp=random
-    headers:
-      Host: misaka.cndyw.ggff.net
-- name: '🇲🇪[Bomzh]Montenegro #10'
+- name: '🇲🇪[Bomzh]Montenegro #8'
   type: vless
   server: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
   port: 443
@@ -4575,23 +4205,7 @@ proxies:
     path: /vl/zhlUKkHT4SNWHmPFOf4cu6?ed=2560
     headers:
       Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
-- name: '🇲🇪[Bomzh]Montenegro #11'
-  type: vless
-  server: 104.21.60.109
-  port: 2083
-  uuid: 89b3cbba-e6ac-4850-94af-061316b04020
-  udp: true
-  tls: true
-  servername: lATE-frOSt-9DA7.SHOAMenI5.wOrkErS.dEv
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /vl/bSbqFirXAWZVvSsBFZyqPIsuI?ed=2560
-    headers:
-      Host: late-frost-9da7.shoameni5.workers.dev
-- name: '🇲🇪[Bomzh]Montenegro #12'
+- name: '🇲🇪[Bomzh]Montenegro #9'
   type: vless
   server: 172.67.195.227
   port: 2083
@@ -4607,7 +4221,7 @@ proxies:
     path: /vl/ampDkOqjmUPSB5DjUBQk2waS?ed=2560
     headers:
       Host: late-frost-9da7.shoameni5.workers.dev
-- name: '🇲🇪[Bomzh]Montenegro #13'
+- name: '🇲🇪[Bomzh]Montenegro #10'
   type: vless
   server: 104.21.87.238
   port: 8080
@@ -4618,7 +4232,7 @@ proxies:
     path: /vl/Wp4FqWLcoYNYXCovu4?ed=2560
     headers:
       Host: ApI-hub-C9A393.ALiMiRZAi539-484.WOrKerS.DeV
-- name: '🇲🇪[Bomzh]Montenegro #14'
+- name: '🇲🇪[Bomzh]Montenegro #11'
   type: vless
   server: 172.67.96.178
   port: 80
@@ -4629,7 +4243,7 @@ proxies:
     path: /sync
     headers:
       Host: billowing-surf-d251.netizo06.workers.dev
-- name: '🇲🇪[Bomzh]Montenegro #15'
+- name: '🇲🇪[Bomzh]Montenegro #12'
   type: vless
   server: 104.21.89.41
   port: 443
@@ -4645,7 +4259,44 @@ proxies:
     path: /vl/xdgqAmOIkXyYoldvHgzrFBxltKN?ed=2560
     headers:
       Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
+- name: '🇲🇪[Bomzh]Montenegro #13'
+  type: vless
+  server: 172.67.156.87
+  port: 443
+  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
+  udp: true
+  tls: true
+  servername: tO6R63-kkCHIgHQM2.vXZ0dDUq7to7SU0cdQF.wOrKERS.Dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /vl/VEyizgqHTVJUF3AcZhYc7j0dW3wCfGYE?ed=2560
+    headers:
+      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
 - name: '🇳🇱[Bomzh]Netherlands #1'
+  type: vless
+  server: 147.45.229.3
+  port: 443
+  uuid: 338efc17-02d7-433b-902a-e7d4771dc802
+  udp: true
+  tls: true
+  servername: gaaga.korgivps.ru
+  client-fingerprint: android
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /api/user
+- name: '🇳🇱[Bomzh]Netherlands #2'
+  type: ss
+  server: 82.38.31.216
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '🇳🇱[Bomzh]Netherlands #3'
   type: vless
   server: 104.21.70.21
   port: 443
@@ -4661,56 +4312,13 @@ proxies:
     path: /jSkSOxcaWoPMMU6Mp
     headers:
       Host: holland.fqrrqfevk.top
-- name: '🇳🇱[Bomzh]Netherlands #2'
-  type: vless
-  server: 158.178.150.159
-  port: 62145
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  udp: true
-- name: '🇳🇱[Bomzh]Netherlands #3'
-  type: vless
-  server: 158.101.205.49
-  port: 62145
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  udp: true
 - name: '🇳🇱[Bomzh]Netherlands #4'
   type: vless
-  server: 104.19.222.169
-  port: 2082
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  network: ws
-  ws-opts:
-    path: /gfdn0yadxgfr
-    headers:
-      Host: index.arcane509.workers.dev
-- name: '🇳🇱[Bomzh]Netherlands #5'
-  type: vless
-  server: 104.18.41.190
-  port: 8880
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇳🇱[Bomzh]Netherlands #6'
-  type: vless
-  server: autumn-leaf-eefd.119-38e.workers.dev
-  port: 8880
-  uuid: a9fb0f8c-89e9-44ee-9574-a310c5bd259c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '🇳🇱[Bomzh]Netherlands #7'
-  type: vless
-  server: 84.235.175.73
+  server: 143.47.187.87
   port: 62145
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   udp: true
-- name: '🇳🇱[Bomzh]Netherlands #8'
+- name: '🇳🇱[Bomzh]Netherlands #5'
   type: vless
   server: soskeynets-8tnpd.hsysyegegrygvvvdujhh.workers.dev
   port: 443
@@ -4726,7 +4334,50 @@ proxies:
     path: /vl/ERYN0G44hia16zhR
     headers:
       Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+- name: '🇳🇱[Bomzh]Netherlands #6'
+  type: vless
+  server: 158.178.150.159
+  port: 62145
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  udp: true
+- name: '🇳🇱[Bomzh]Netherlands #7'
+  type: vless
+  server: 158.101.205.49
+  port: 62145
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  udp: true
+- name: '🇳🇱[Bomzh]Netherlands #8'
+  type: vless
+  server: 104.19.222.169
+  port: 2082
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  network: ws
+  ws-opts:
+    path: /gfdn0yadxgfr
+    headers:
+      Host: index.arcane509.workers.dev
 - name: '🇳🇱[Bomzh]Netherlands #9'
+  type: vless
+  server: 104.18.41.190
+  port: 8880
+  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    headers:
+      Host: summer-bonus-aa63.52-c03.workers.dev
+- name: '🇳🇱[Bomzh]Netherlands #10'
+  type: vless
+  server: autumn-leaf-eefd.119-38e.workers.dev
+  port: 8880
+  uuid: a9fb0f8c-89e9-44ee-9574-a310c5bd259c
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: '🇳🇱[Bomzh]Netherlands #11'
   type: vless
   server: cf3.466688.xyz
   port: 8880
@@ -4813,17 +4464,6 @@ proxies:
       Host: vms.lifetime58.workers.dev
 - name: '🇵🇰[Bomzh]Pakistan #1'
   type: vless
-  server: lucky-field-0220.191-de2.workers.dev
-  port: 8880
-  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: lucky-field-0220.191-de2.workers.dev
-- name: '🇵🇰[Bomzh]Pakistan #2'
-  type: vless
   server: free73-us2.node2.top
   port: 443
   uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
@@ -4836,29 +4476,18 @@ proxies:
     path: /XFJVPN
     headers:
       Host: sie704.pages.dev
-- name: '🇵🇱[Bomzh]Poland #1'
+- name: '🇵🇰[Bomzh]Pakistan #2'
   type: vless
-  server: cf4.466688.xyz
+  server: lucky-field-0220.191-de2.workers.dev
   port: 8880
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
+  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
   udp: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
+      Host: lucky-field-0220.191-de2.workers.dev
 - name: '🇵🇹[Bomzh]Portugal #1'
-  type: vless
-  server: 156.243.83.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime54.workers.dev
-- name: '🇵🇹[Bomzh]Portugal #2'
   type: vless
   server: app-q0zc4t.user-4gfyh5.workers.dev
   port: 443
@@ -4871,6 +4500,17 @@ proxies:
     path: /cmh
     headers:
       Host: app-q0zc4t.user-4gfyh5.workers.dev
+- name: '🇵🇹[Bomzh]Portugal #2'
+  type: vless
+  server: 156.243.83.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime54.workers.dev
 - name: '🇶🇦[Bomzh]Qatar #1'
   type: vless
   server: square-mountain-1d69.356-977.workers.dev
@@ -4881,24 +4521,6 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
 - name: '🇷🇺[Bomzh]Russia #1'
-  type: vless
-  server: 87.228.122.108
-  port: 4100
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇷🇺[Bomzh]Russia #2'
-  type: vless
-  server: 168.222.203.14
-  port: 4100
-  uuid: 2e79f3ca-b8db-4d4d-a96e-8f7313480696
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇷🇺[Bomzh]Russia #3'
   type: vless
   server: 185.141.227.153
   port: 9001
@@ -4913,7 +4535,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-reality
-- name: '🇷🇺[Bomzh]Russia #4'
+- name: '🇷🇺[Bomzh]Russia #2'
   type: vless
   server: 188.225.47.234
   port: 4100
@@ -4922,52 +4544,7 @@ proxies:
   network: ws
   ws-opts:
     path: /v1
-- name: '🇷🇺[Bomzh]Russia #5'
-  type: vless
-  server: 5.42.121.52
-  port: 2200
-  uuid: 64bd5231-8c49-44f4-8bc0-998eef787d05
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇷🇺[Bomzh]Russia #6'
-  type: vless
-  server: 5.42.121.52
-  port: 4100
-  uuid: 64bd5231-8c49-44f4-8bc0-998eef787d05
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇷🇺[Bomzh]Russia #7'
-  type: vless
-  server: 87.249.54.48
-  port: 2200
-  uuid: fe3489e2-6b59-4adb-91f3-e34300a13d5a
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇷🇺[Bomzh]Russia #8'
-  type: vless
-  server: 87.249.54.48
-  port: 4100
-  uuid: fe3489e2-6b59-4adb-91f3-e34300a13d5a
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇷🇺[Bomzh]Russia #9'
-  type: vless
-  server: 91.222.237.55
-  port: 2200
-  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇷🇺[Bomzh]Russia #10'
+- name: '🇷🇺[Bomzh]Russia #3'
   type: vless
   server: 194.26.229.122
   port: 2200
@@ -4976,16 +4553,37 @@ proxies:
   network: ws
   ws-opts:
     path: /v1
-- name: '🇷🇺[Bomzh]Russia #11'
+- name: '🇷🇺[Bomzh]Russia #4'
   type: vless
-  server: 194.26.229.157
-  port: 2200
-  uuid: c05888f0-4029-45c8-bea7-ea5eff564462
+  server: 185.91.52.223
+  port: 444
+  uuid: 8e676cd1-5497-4b81-b1eb-17df2e347d24
   udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🇷🇺[Bomzh]Russia #12'
+  tls: true
+  servername: cdn.selectel.ru
+  client-fingerprint: qq
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: c1a7e9b4711d5f60
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🇷🇺[Bomzh]Russia #5'
+  type: vless
+  server: 95.163.232.184
+  port: 443
+  uuid: 8e676cd1-5497-4b81-b1eb-17df2e347d24
+  udp: true
+  tls: true
+  servername: cdn.selectel.ru
+  client-fingerprint: qq
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: c1a7e9b4711d5f60
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🇷🇺[Bomzh]Russia #6'
   type: vless
   server: 91.224.87.22
   port: 9882
@@ -5000,18 +4598,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇷🇺[Bomzh]Russia #13'
-  type: vless
-  server: 87.249.54.103
-  port: 4100
-  uuid: db7de26b-96d8-452c-8b9d-4a6bf55a7da7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🇷🇺[Bomzh]Russia #14'
+- name: '🇷🇺[Bomzh]Russia #7'
   type: vless
   server: 91.224.87.22
   port: 9873
@@ -5026,7 +4613,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇷🇺[Bomzh]Russia #15'
+- name: '🇷🇺[Bomzh]Russia #8'
   type: vless
   server: 91.224.86.107
   port: 9830
@@ -5041,18 +4628,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇷🇺[Bomzh]Russia #16'
-  type: vless
-  server: 194.26.229.157
-  port: 4100
-  uuid: c05888f0-4029-45c8-bea7-ea5eff564462
-  udp: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🇷🇺[Bomzh]Russia #17'
+- name: '🇷🇺[Bomzh]Russia #9'
   type: vless
   server: 77.222.53.218
   port: 2200
@@ -5063,20 +4639,18 @@ proxies:
     path: /v1
     headers:
       Host: 77.222.53.218
-- name: '🇷🇺[Bomzh]Russia #18'
+- name: '🇷🇺[Bomzh]Russia #10'
   type: vless
-  server: 72.56.7.25
-  port: 9443
-  uuid: 1031c52b-a421-4afa-9ca5-94be0912ed6d
+  server: 81.200.144.27
+  port: 4100
+  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
   udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: atgfpCNlrnX_AGy2bPpIXyOhNRNkx2l2Ne-a_OvC8Q0
-    short-id: 0123456789abcdef
-- name: '🇷🇺[Bomzh]Russia #19'
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '🇷🇺[Bomzh]Russia #11'
   type: vless
   server: 91.222.236.48
   port: 4100
@@ -5087,7 +4661,7 @@ proxies:
     path: /v1
     headers:
       Host: live.ok.ru
-- name: '🇷🇺[Bomzh]Russia #20'
+- name: '🇷🇺[Bomzh]Russia #12'
   type: vless
   server: steep-resonance-1ffb.274.workers.dev
   port: 8880
@@ -5096,7 +4670,7 @@ proxies:
   network: ws
   ws-opts:
     path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '🇷🇺[Bomzh]Russia #21'
+- name: '🇷🇺[Bomzh]Russia #13'
   type: vless
   server: cnmfangbinxing.cnmfangbinxing-f.workers.dev
   port: 2095
@@ -5105,13 +4679,24 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇷🇺[Bomzh]Russia #22'
+- name: '🇷🇺[Bomzh]Russia #14'
   type: ss
   server: 157.22.240.141
   port: 57925
   cipher: chacha20-ietf-poly1305
   password: frcYfFRuQRks932EpCWvX7
   udp: true
+- name: '🇸🇨[Bomzh]SC #1'
+  type: vless
+  server: 200.165.234.45
+  port: 4100
+  uuid: 39e0f41b-180b-4f7e-a607-37b135f0fd83
+  udp: true
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
 - name: '🇷🇸[Bomzh]Serbia #1'
   type: vless
   server: 45.130.125.30
@@ -5152,20 +4737,6 @@ proxies:
   password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
   udp: true
 - name: '🇸🇨[Bomzh]Seychelles #2'
-  type: vless
-  server: 45.130.125.96
-  port: 443
-  uuid: 28607fa7-db30-47d6-942a-f5744e4be9ad
-  udp: true
-  tls: true
-  servername: dfsuporte.garena.com.ex33r.eu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /id-pusat
-    headers:
-      Host: dfsuporte.garena.com.ex33r.eu.cc
-- name: '🇸🇨[Bomzh]Seychelles #3'
   type: vless
   server: 45.130.125.126
   port: 443
@@ -5237,17 +4808,6 @@ proxies:
   client-fingerprint: chrome
 - name: '🇸🇬[Bomzh]Singapore #6'
   type: vless
-  server: 172.64.146.66
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
-- name: '🇸🇬[Bomzh]Singapore #7'
-  type: vless
   server: 178.128.112.70
   port: 443
   uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
@@ -5259,7 +4819,7 @@ proxies:
   reality-opts:
     public-key: -O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY
     short-id: 7f7f
-- name: '🇸🇬[Bomzh]Singapore #8'
+- name: '🇸🇬[Bomzh]Singapore #7'
   type: vless
   server: 104.21.96.56
   port: 80
@@ -5270,7 +4830,7 @@ proxies:
     path: /vl/D2pryqVs9LAgCYdTK76lsafWY?ed=2560
     headers:
       Host: vkvd8bpskvxgjwdvcidxgoccr.javanbaghe.workers.dev
-- name: '🇸🇬[Bomzh]Singapore #9'
+- name: '🇸🇬[Bomzh]Singapore #8'
   type: vless
   server: cf-socks.caoyuwu.eu.org
   port: 443
@@ -5284,7 +4844,7 @@ proxies:
     path: /
     headers:
       Host: cf-socks.caoyuwu.eu.org
-- name: '🇸🇬[Bomzh]Singapore #10'
+- name: '🇸🇬[Bomzh]Singapore #9'
   type: vless
   server: 47.129.200.244
   port: 41159
@@ -5293,18 +4853,18 @@ proxies:
   flow: xtls-rprx-vision-udp443
   tls: true
   servername: www.tesla.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   reality-opts:
     public-key: dp_CXcMGxttv9CdCq3LI7UkaHbpV9yoPKpgAGH177WY
     short-id: 41c5dc0928f602ab
-- name: '🇸🇬[Bomzh]Singapore #11'
+- name: '🇸🇬[Bomzh]Singapore #10'
   type: ss
   server: 176.97.64.144
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: TFElG2FVqyqG
   udp: true
-- name: '🇸🇬[Bomzh]Singapore #12'
+- name: '🇸🇬[Bomzh]Singapore #11'
   type: vless
   server: 13.229.47.178
   port: 20414
@@ -5317,7 +4877,7 @@ proxies:
   reality-opts:
     public-key: H4ZErlTUck4uQYnxtURj9aHLVXQIUHIPMI8dBz7wMVg
     short-id: ed2cfa4d6d47e0
-- name: '🇸🇬[Bomzh]Singapore #13'
+- name: '🇸🇬[Bomzh]Singapore #12'
   type: vless
   server: 54.254.145.25
   port: 6768
@@ -5331,7 +4891,7 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: '🇸🇬[Bomzh]Singapore #14'
+- name: '🇸🇬[Bomzh]Singapore #13'
   type: vless
   server: 152.42.217.27
   port: 4321
@@ -5344,7 +4904,7 @@ proxies:
   reality-opts:
     public-key: iFKNWOLqlwrSmvR8wkxap1u85leVrr6YqEBy3Vn8WX0
     short-id: 950e9d42106bedae
-- name: '🇸🇬[Bomzh]Singapore #15'
+- name: '🇸🇬[Bomzh]Singapore #14'
   type: vless
   server: curly-surf-4401.75-08c.workers.dev
   port: 8880
@@ -5353,21 +4913,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇸🇬[Bomzh]Singapore #16'
-  type: vless
-  server: 165.22.104.36
-  port: 443
-  uuid: 122614de-c046-44d9-b7c3-279fc73aa543
-  udp: true
-  tls: true
-  servername: fm3.pages.dev
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fm3.pages.dev
-- name: '🇸🇬[Bomzh]Singapore #17'
+- name: '🇸🇬[Bomzh]Singapore #15'
   type: vless
   server: 52.220.246.115
   port: 47085
@@ -5376,22 +4922,11 @@ proxies:
   flow: xtls-rprx-vision-udp443
   tls: true
   servername: www.tesla.com
-  client-fingerprint: firefox
+  client-fingerprint: qq
   reality-opts:
     public-key: iziU0KuUM47h4rgtUNwywwzgOlVzC7uPhjuTuSbq4E4
     short-id: 8aa7065d8b40
 - name: '🇸🇰[Bomzh]Slovakia #1'
-  type: vless
-  server: netlivpn5505.ffffdsaaa.workers.dev
-  port: 443
-  uuid: f6b5a6a3-f3e1-63ca-bb68-bdc400000000
-  udp: true
-  tls: true
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /
-- name: '🇸🇰[Bomzh]Slovakia #2'
   type: vless
   server: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
   port: 443
@@ -5405,6 +4940,17 @@ proxies:
     path: /eyJqdW5rIjoiZTFWRGJFS0NUd2F2NkRmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
     headers:
       Host: CgxGqchEiAMnA-jkS01FiDlsnqOjwF-S.ALIAmA.WOrKErS.DeV
+- name: '🇸🇰[Bomzh]Slovakia #2'
+  type: vless
+  server: netlivpn5505.ffffdsaaa.workers.dev
+  port: 443
+  uuid: f6b5a6a3-f3e1-63ca-bb68-bdc400000000
+  udp: true
+  tls: true
+  client-fingerprint: qq
+  network: ws
+  ws-opts:
+    path: /
 - name: '🇸🇰[Bomzh]Slovakia #3'
   type: vless
   server: mute-dust-f0c4.456-8ae.workers.dev
@@ -5441,19 +4987,6 @@ proxies:
     headers:
       Host: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
 - name: '🇸🇮[Bomzh]Slovenia #2'
-  type: vless
-  server: restless-base-fe24.alirezahabibi20009.workers.dev
-  port: 443
-  uuid: 4908acbe-485f-4e1c-bb11-5dd04b9f7e88
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: restless-base-fe24.alirezahabibi20009.workers.dev
-- name: '🇸🇮[Bomzh]Slovenia #3'
   type: vless
   server: fancy-king-6fb5.33-615.workers.dev
   port: 8880
@@ -5520,29 +5053,6 @@ proxies:
     headers:
       Host: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
 - name: '🇰🇷[Bomzh]South Korea #7'
-  type: trojan
-  server: 30f67sbq8jjwmt7gytfc14.0m68-qz3hqyfnlar6n3iq.workers.dev
-  port: 443
-  password: Telegram_healer_config
-  udp: true
-  sni: 30F67SBQ8jJWMT7gytfc14.0m68-qZ3hqYFNlaR6n3Iq.WorKerS.Dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tr/MBHDTiG2ZHfgBBj9iEpRFkse0tafJ?ed=2560
-- name: '🇰🇷[Bomzh]South Korea #8'
-  type: vless
-  server: 54.180.144.198
-  port: 8686
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  udp: true
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: 628b3c90c98ead4f
-- name: '🇰🇷[Bomzh]South Korea #9'
   type: ss
   server: 27.255.82.134
   port: 2078
@@ -5551,19 +5061,12 @@ proxies:
   udp: true
 - name: '🇪🇸[Bomzh]Spain #1'
   type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: '🇪🇸[Bomzh]Spain #2'
-  type: ss
   server: 140.174.184.5
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: qItG8SueYQcP
   udp: true
-- name: '🇪🇸[Bomzh]Spain #3'
+- name: '🇪🇸[Bomzh]Spain #2'
   type: vless
   server: ez-1bc8ab.sekiro-c18.workers.dev
   port: 443
@@ -5579,7 +5082,7 @@ proxies:
   type: vless
   server: 185.71.67.81
   port: 443
-  uuid: ab3c95ef-e78a-4d65-a1dc-58287600e945
+  uuid: 6c93e469-43e5-4a28-8e9a-3a6d6ef7acb3
   udp: true
   tls: true
   servername: stream.benz.ink
@@ -5637,6 +5140,19 @@ proxies:
     path: /
 - name: '🇹🇼[Bomzh]Taiwan #1'
   type: vless
+  server: 35.236.181.11
+  port: 35190
+  uuid: 97e46b0b-d27c-4e94-aa00-034e29acd046
+  udp: true
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  servername: www.sony.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5v2iiibdxSDD2c7acIZ93kROtWHBTNTe0ea5EEMUHRk
+    short-id: 0296fcb7c578
+- name: '🇹🇼[Bomzh]Taiwan #2'
+  type: vless
   server: 45.121.50.241
   port: 50159
   uuid: 47a97b7f-044d-43d6-86b0-8b256873d1b5
@@ -5648,14 +5164,14 @@ proxies:
   reality-opts:
     public-key: E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE
     short-id: 4c3f80051030ba1b
-- name: '🇹🇼[Bomzh]Taiwan #2'
+- name: '🇹🇼[Bomzh]Taiwan #3'
   type: ss
   server: r3mrcg001287h3p.cybervena.com
   port: 50099
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   udp: true
-- name: '🇹🇼[Bomzh]Taiwan #3'
+- name: '🇹🇼[Bomzh]Taiwan #4'
   type: vless
   server: restless-boat-ebf2.moha102030.workers.dev
   port: 2053
@@ -5669,7 +5185,7 @@ proxies:
     path: /sync
     headers:
       Host: restless-boat-ebf2.moha102030.workers.dev
-- name: '🇹🇼[Bomzh]Taiwan #4'
+- name: '🇹🇼[Bomzh]Taiwan #5'
   type: vless
   server: 104.199.219.172
   port: 40800
@@ -5682,15 +5198,6 @@ proxies:
   reality-opts:
     public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
     short-id: 186e4c2732d61a3d
-- name: '🇹🇼[Bomzh]Taiwan #5'
-  type: vless
-  server: rough-mouse-2a3a.424-e94.workers.dev
-  port: 8880
-  uuid: 70ca8aec-42ba-41df-a874-ec9517053dec
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
 - name: '🇹🇼[Bomzh]Taiwan #6'
   type: vless
   server: 45.130.125.201
@@ -5750,6 +5257,17 @@ proxies:
       Host: ez-541f9d.ezaccess1d3db24.workers.dev
 - name: '🇹🇭[Bomzh]Thailand #1'
   type: vless
+  server: 18.239.134.69
+  port: 80
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+- name: '🇹🇭[Bomzh]Thailand #2'
+  type: vless
   server: soskeynets-meadow-af5b.woowoorrrkk.workers.dev
   port: 443
   uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
@@ -5762,7 +5280,7 @@ proxies:
     path: /sync
     headers:
       Host: summer-meadow-af5b.woowoorrrkk.workers.dev
-- name: '🇹🇭[Bomzh]Thailand #2'
+- name: '🇹🇭[Bomzh]Thailand #3'
   type: vless
   server: jolly-butterfly-24e0.212-cb3.workers.dev
   port: 8880
@@ -5771,7 +5289,7 @@ proxies:
   network: ws
   ws-opts:
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: '🇹🇭[Bomzh]Thailand #3'
+- name: '🇹🇭[Bomzh]Thailand #4'
   type: vless
   server: muddy-queen-cdda.181-cf9.workers.dev
   port: 8880
@@ -5780,19 +5298,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇹🇭[Bomzh]Thailand #4'
-  type: trojan
-  server: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
-  port: 443
-  password: Telegram_healer_config
-  udp: true
-  sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
-    headers:
-      Host: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
 - name: '🇳🇱[Bomzh]The Netherlands #1'
   type: ss
   server: 158.173.20.208
@@ -5801,6 +5306,13 @@ proxies:
   password: shadowsocks
   udp: true
 - name: '🇳🇱[Bomzh]The Netherlands #2'
+  type: ss
+  server: 188.116.23.244
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: eVC634QvVk5l
+  udp: true
+- name: '🇳🇱[Bomzh]The Netherlands #3'
   type: vless
   server: 51.15.56.211
   port: 8080
@@ -5809,19 +5321,9 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇳🇱[Bomzh]The Netherlands #3'
-  type: vless
-  server: 94.103.1.65
-  port: 8443
-  uuid: 5495728b-5b89-4330-9193-c6c09920f998
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: n3.plus-abc.ru
-  client-fingerprint: firefox
 - name: '🇳🇱[Bomzh]The Netherlands #4'
   type: vless
-  server: 51.15.57.139
+  server: 51.158.238.49
   port: 8080
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
@@ -5830,7 +5332,7 @@ proxies:
     path: /
 - name: '🇳🇱[Bomzh]The Netherlands #5'
   type: vless
-  server: 51.158.241.182
+  server: 51.15.57.139
   port: 8080
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
@@ -5848,12 +5350,6 @@ proxies:
     path: /
 - name: '🇹🇷[Bomzh]Turkey #1'
   type: vless
-  server: tr2.diginoisb.ir
-  port: 54178
-  uuid: 31f0e05b-2126-46ea-8f47-34e60defaa1b
-  udp: true
-- name: '🇹🇷[Bomzh]Turkey #2'
-  type: vless
   server: purple-butterfly-8496.erfannull36.workers.dev
   port: 443
   uuid: 29fb68bb-ff05-4fd4-8393-cc6c05d81a79
@@ -5864,16 +5360,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇹🇷[Bomzh]Turkey #3'
-  type: vless
-  server: 194.5.206.112
-  port: 8080
-  uuid: 5d5eb248-264c-4861-873a-50a7cc069448
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: mamad
-- name: '🇹🇷[Bomzh]Turkey #4'
+- name: '🇹🇷[Bomzh]Turkey #2'
   type: vless
   server: 162.159.152.4
   port: 80
@@ -5931,48 +5418,48 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
     headers:
       Host: summer-bonus-aa63.52-c03.workers.dev
-- name: '🇦🇪[Bomzh]United Arab Emirates #3'
-  type: trojan
-  server: vless.herogoing.top
-  port: 443
-  password: bpb-trojan
-  udp: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tr?ed=2560
 - name: '🇬🇧[Bomzh]United Kingdom #1'
+  type: ss
+  server: 82.38.31.192
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '🇬🇧[Bomzh]United Kingdom #2'
+  type: ss
+  server: 82.38.31.164
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '🇬🇧[Bomzh]United Kingdom #3'
   type: ss
   server: 18.132.203.206
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #2'
-  type: vless
-  server: 57.129.132.223
-  port: 80
-  uuid: 9e20b04d-5a81-4e16-b421-01e502f0aac6
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: google.com
-- name: '🇬🇧[Bomzh]United Kingdom #3'
+- name: '🇬🇧[Bomzh]United Kingdom #4'
   type: vless
   server: 35.178.112.200
   port: 22222
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #4'
+- name: '🇬🇧[Bomzh]United Kingdom #5'
+  type: ss
+  server: 129.151.71.198
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: vvx0el/wNgatWGUzIhkHnAZcBKpUFA0gTC0OMqMe4Ac=
+  udp: true
+- name: '🇬🇧[Bomzh]United Kingdom #6'
   type: ss
   server: 144.24.224.213
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: Sl/pqZDWJam4jBZiNnccEJEOV9fBfAU+quV3BVafnkA=
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #5'
+- name: '🇬🇧[Bomzh]United Kingdom #7'
   type: vless
   server: nameless-moon-7c4d.shafmrhjlos23.workers.dev
   port: 443
@@ -5984,21 +5471,21 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇬🇧[Bomzh]United Kingdom #6'
+- name: '🇬🇧[Bomzh]United Kingdom #8'
   type: ss
   server: 158.173.24.73
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #7'
+- name: '🇬🇧[Bomzh]United Kingdom #9'
   type: ss
   server: 129.151.84.127
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: HKSvOU0Ruej4DuNgM41S+dNISlcFU45tqwqj3BQCuYY=
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #8'
+- name: '🇬🇧[Bomzh]United Kingdom #10'
   type: vless
   server: 57.129.130.200
   port: 52014
@@ -6012,7 +5499,7 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: '🇬🇧[Bomzh]United Kingdom #9'
+- name: '🇬🇧[Bomzh]United Kingdom #11'
   type: vless
   server: 57.129.130.57
   port: 52014
@@ -6026,7 +5513,27 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-- name: '🇬🇧[Bomzh]United Kingdom #10'
+- name: '🇬🇧[Bomzh]United Kingdom #12'
+  type: vless
+  server: 35.178.112.200
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+- name: '🇬🇧[Bomzh]United Kingdom #13'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: ef456d2c-b206-4b8b-b465-7c1df8b2bb00
+  udp: true
+  tls: true
+  servername: sap.xiaomayi.nyc.mn
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vless-argo
+    headers:
+      Host: sap.xiaomayi.nyc.mn
+- name: '🇬🇧[Bomzh]United Kingdom #14'
   type: vmess
   server: 57.129.132.223
   port: 80
@@ -6039,14 +5546,34 @@ proxies:
     path: /vmess/
     headers:
       Host: google.com
-- name: '🇬🇧[Bomzh]United Kingdom #11'
+- name: '🇬🇧[Bomzh]United Kingdom #15'
   type: ss
-  server: 82.38.31.164
+  server: 82.38.31.175
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #12'
+- name: '🇬🇧[Bomzh]United Kingdom #16'
+  type: ss
+  server: 35.176.118.152
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: '🇬🇧[Bomzh]United Kingdom #17'
+  type: vless
+  server: 35.178.112.200
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+- name: '🇬🇧[Bomzh]United Kingdom #18'
+  type: ss
+  server: 13.40.94.70
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: '🇬🇧[Bomzh]United Kingdom #19'
   type: vless
   server: 51.89.194.151
   port: 2053
@@ -6058,61 +5585,28 @@ proxies:
   reality-opts:
     public-key: v0-nm8GGINN0mEHP5kgcgWrl_TFDcr2ZS8yLLW8c93M
     short-id: 5b83742cfc81b064
-- name: '🇬🇧[Bomzh]United Kingdom #13'
+- name: '🇬🇧[Bomzh]United Kingdom #20'
   type: ss
-  server: 35.176.118.152
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: 144.24.224.102
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: VjFxEeneYK+dmUmOoorVlZHsvpZptG6ZYTtVyG6zrIU=
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #14'
-  type: ss
-  server: 13.40.94.70
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #15'
-  type: vless
-  server: 51.38.70.192
-  port: 443
-  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
-  udp: true
-  tls: true
-  servername: play.google.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
-    short-id: 98fa0b00d09419f7
-- name: '🇬🇧[Bomzh]United Kingdom #16'
-  type: ss
-  server: 18.133.240.229
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #17'
-  type: ss
-  server: 146.70.23.32
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #18'
+- name: '🇬🇧[Bomzh]United Kingdom #21'
   type: ss
   server: 18.171.210.5
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #19'
+- name: '🇬🇧[Bomzh]United Kingdom #22'
   type: ss
-  server: 35.179.119.76
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: 146.70.23.32
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: '🇬🇧[Bomzh]United Kingdom #20'
+- name: '🇬🇧[Bomzh]United Kingdom #23'
   type: vless
   server: 57.129.130.57
   port: 52014
@@ -6137,27 +5631,14 @@ proxies:
     path: /v1
 - name: '🇺🇸[Bomzh]United States #2'
   type: vless
-  server: 200.165.234.119
-  port: 2200
-  uuid: 936b7663-a841-4b42-b639-6e3fab1dbf45
+  server: us1.lunariai.ru
+  port: 8443
+  uuid: 57a2ff90-fadd-4655-9624-c51374ab6f32
   udp: true
   network: ws
   ws-opts:
-    path: /v1
+    path: /
 - name: '🇺🇸[Bomzh]United States #3'
-  type: vless
-  server: 31.76.61.232
-  port: 443
-  uuid: 791a171e-c0af-4bd7-b8ce-43541c7585db
-  udp: true
-  flow: xtls-rprx-vision-udp443
-  tls: true
-  servername: policies.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY
-    short-id: e2a4c6b8
-- name: '🇺🇸[Bomzh]United States #4'
   type: vless
   server: 172.67.160.192
   port: 443
@@ -6171,6 +5652,13 @@ proxies:
     path: /free/103.101.153.32:443
     headers:
       Host: nuclear.us.kg
+- name: '🇺🇸[Bomzh]United States #4'
+  type: ss
+  server: 31.76.82.131
+  port: 34260
+  cipher: chacha20-ietf-poly1305
+  password: cTAObwg4OWWXkZJQs0ZdgC
+  udp: true
 - name: '🇺🇸[Bomzh]United States #5'
   type: ss
   server: 15.204.247.124
@@ -6279,22 +5767,6 @@ proxies:
     short-id: ''
 - name: '🇺🇸[Bomzh]United States #15'
   type: vless
-  server: 69.46.46.33
-  port: 443
-  uuid: f71d66a1-d2b0-7d14-620a-8602158e322a
-  udp: true
-  tls: true
-  servername: quiet-orchard-ea15-production.up.railway.app
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /ws/f71d66a1-d2b0-7d14-620a-8602158e322a
-    headers:
-      Host: quiet-orchard-ea15-production.up.railway.app
-- name: '🇺🇸[Bomzh]United States #16'
-  type: vless
   server: 64.23.229.123
   port: 443
   uuid: dbf32a62-2ea4-4dad-a4db-37a7c7cb3f42
@@ -6306,33 +5778,46 @@ proxies:
   reality-opts:
     public-key: Wm59k6VGo2h-U4maemuBST8PlcCbBjLv1tmiC7OUjHE
     short-id: ''
-- name: '🇺🇸[Bomzh]United States #17'
+- name: '🇺🇸[Bomzh]United States #16'
   type: ss
   server: 15.204.246.132
   port: 7307
   cipher: aes-256-gcm
   password: FoOiGlkAA9yPEGP
   udp: true
-- name: '🇺🇸[Bomzh]United States #18'
+- name: '🇺🇸[Bomzh]United States #17'
   type: ss
   server: 15.204.247.175
   port: 8008
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
   udp: true
-- name: '🇺🇸[Bomzh]United States #19'
+- name: '🇺🇸[Bomzh]United States #18'
   type: ss
   server: 38.180.135.156
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: YHtesZ0qvgtg
   udp: true
+- name: '🇺🇸[Bomzh]United States #19'
+  type: vless
+  server: 72.56.7.25
+  port: 9443
+  uuid: 1031c52b-a421-4afa-9ca5-94be0912ed6d
+  udp: true
+  flow: xtls-rprx-vision-udp443
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: atgfpCNlrnX_AGy2bPpIXyOhNRNkx2l2Ne-a_OvC8Q0
+    short-id: 0123456789abcdef
 - name: '🇺🇸[Bomzh]United States #20'
   type: ss
-  server: 129.146.116.35
-  port: 50356
-  cipher: 2022-blake3-chacha20-poly1305
-  password: nEL9gHcge5INdJhIJL0r9RdkxBOn6nvmaf6wYwH+Jxg=
+  server: 15.204.247.244
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
   udp: true
 - name: '🇺🇸[Bomzh]United States #21'
   type: ss
@@ -6342,19 +5827,12 @@ proxies:
   password: v9Z2PmRQrMTsmRoCUAc1hLT5ISSrl6Ir0J8z2swu2ds=
   udp: true
 - name: '🇺🇸[Bomzh]United States #22'
-  type: vless
-  server: 8.35.211.114
-  port: 2053
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  type: ss
+  server: 129.146.116.35
+  port: 50356
+  cipher: 2022-blake3-chacha20-poly1305
+  password: nEL9gHcge5INdJhIJL0r9RdkxBOn6nvmaf6wYwH+Jxg=
   udp: true
-  tls: true
-  servername: go.iranfree.de5.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: go.iranfree.de5.net
 - name: '🇺🇸[Bomzh]United States #23'
   type: vless
   server: 188.114.99.47
@@ -6373,6 +5851,20 @@ proxies:
       Host: auto-1f40d7.rohawmk.workers.dev
 - name: '🇺🇸[Bomzh]United States #24'
   type: vless
+  server: 8.35.211.114
+  port: 2053
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  servername: go.iranfree.de5.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: '🇺🇸[Bomzh]United States #25'
+  type: vless
   server: 141.101.114.8
   port: 443
   uuid: 5d8eb33a-2166-4daf-88fe-4be5799c493b
@@ -6385,7 +5877,7 @@ proxies:
     path: /
     headers:
       Host: noisy-term-e657.airdrop2014aa5168.workers.dev
-- name: '🇺🇸[Bomzh]United States #25'
+- name: '🇺🇸[Bomzh]United States #26'
   type: vless
   server: liang92.dpdns.org
   port: 443
@@ -6399,7 +5891,33 @@ proxies:
     path: /
     headers:
       Host: liang92.dpdns.org
-- name: '🇺🇸[Bomzh]United States #26'
+- name: '🇺🇸[Bomzh]United States #27'
+  type: vless
+  server: yx.zhourf2006.dpdns.org
+  port: 443
+  uuid: 7e81824b-35e0-4eb1-89e9-592f0c92aa6b
+  udp: true
+  tls: true
+  servername: yx.zhourf2006.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+- name: '🇺🇸[Bomzh]United States #28'
+  type: vless
+  server: free77-sg1.node2.top
+  port: 443
+  uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
+  udp: true
+  tls: true
+  servername: sie704.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /XFJVPNfp=chrome
+    headers:
+      Host: sie704.pages.dev
+- name: '🇺🇸[Bomzh]United States #29'
   type: vless
   server: 34.222.2.182
   port: 50159
@@ -6412,21 +5930,7 @@ proxies:
   reality-opts:
     public-key: SX1vaYIIZcbcfO3RrAPhYQ1FAeA7bkcDZJtEDN9pbxw
     short-id: 94c8a1b378da7250
-- name: '🇺🇸[Bomzh]United States #27'
-  type: vless
-  server: 146.190.174.67
-  port: 386
-  uuid: 79aa80da-2394-4b0a-986b-15dad2382046
-  udp: true
-  tls: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-- name: '🇺🇸[Bomzh]United States #28'
+- name: '🇺🇸[Bomzh]United States #30'
   type: vless
   server: www.5h.com
   port: 443
@@ -6440,19 +5944,66 @@ proxies:
     path: /
     headers:
       Host: youxuanku.kdns.fr
-- name: '🇺🇸[Bomzh]United States #29'
+- name: '🇺🇸[Bomzh]United States #31'
   type: vless
-  server: yx.zhourf2006.dpdns.org
-  port: 443
-  uuid: 7e81824b-35e0-4eb1-89e9-592f0c92aa6b
+  server: 146.190.174.67
+  port: 386
+  uuid: 79aa80da-2394-4b0a-986b-15dad2382046
   udp: true
   tls: true
-  servername: yx.zhourf2006.dpdns.org
+  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
   client-fingerprint: chrome
   network: ws
   ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
+- name: '🇺🇸[Bomzh]United States #32'
+  type: hysteria2
+  server: 159.223.157.129
+  port: 8443
+  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
+  udp: true
+  skip-cert-verify: true
+- name: '🇺🇸[Bomzh]United States #33'
+  type: vless
+  server: 40.160.69.214
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  network: ws
+  ws-opts:
     path: /
-- name: '🇺🇸[Bomzh]United States #30'
+    headers:
+      Host: 40.160.69.214
+- name: '🇺🇸[Bomzh]United States #34'
+  type: vless
+  server: 40.160.68.136
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: '🇺🇸[Bomzh]United States #35'
+  type: vless
+  server: 40.160.68.55
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: '🇺🇸[Bomzh]United States #36'
+  type: vless
+  server: 40.160.69.26
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: '🇺🇸[Bomzh]United States #37'
   type: vless
   server: 204.48.20.223
   port: 30906
@@ -6464,52 +6015,7 @@ proxies:
   reality-opts:
     public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
     short-id: 17a94dc584e3
-- name: '🇺🇸[Bomzh]United States #31'
-  type: hysteria2
-  server: 159.223.157.129
-  port: 8443
-  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  udp: true
-  skip-cert-verify: true
-- name: '🇺🇸[Bomzh]United States #32'
-  type: vless
-  server: 40.160.69.214
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 40.160.69.214
-- name: '🇺🇸[Bomzh]United States #33'
-  type: vless
-  server: 40.160.68.136
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🇺🇸[Bomzh]United States #34'
-  type: vless
-  server: 40.160.68.55
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🇺🇸[Bomzh]United States #35'
-  type: vless
-  server: 40.160.69.26
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🇺🇸[Bomzh]United States #36'
+- name: '🇺🇸[Bomzh]United States #38'
   type: vless
   server: www.gco.gov.qa
   port: 8443
@@ -6523,7 +6029,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: c7dabe95.proxy-978.pages.dev
-- name: '🇺🇸[Bomzh]United States #37'
+- name: '🇺🇸[Bomzh]United States #39'
   type: vless
   server: 162.159.38.127
   port: 2086
@@ -6534,7 +6040,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇺🇸[Bomzh]United States #38'
+- name: '🇺🇸[Bomzh]United States #40'
   type: vless
   server: 162.159.45.19
   port: 2086
@@ -6545,7 +6051,7 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇺🇸[Bomzh]United States #39'
+- name: '🇺🇸[Bomzh]United States #41'
   type: vless
   server: 162.159.39.218
   port: 8080
@@ -6556,18 +6062,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇺🇸[Bomzh]United States #40'
-  type: vless
-  server: envato.com
-  port: 8880
-  uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: blue-water-924c.174-235.workers.dev
-- name: '🇺🇸[Bomzh]United States #41'
+- name: '🇺🇸[Bomzh]United States #42'
   type: vless
   server: cdn.asshole.eu.cc
   port: 2095
@@ -6578,7 +6073,7 @@ proxies:
     path: /
     headers:
       Host: cdn.asshole.eu.cc
-- name: '🇺🇸[Bomzh]United States #42'
+- name: '🇺🇸[Bomzh]United States #43'
   type: vless
   server: www.baipiao.eu.org
   port: 8880
@@ -6589,7 +6084,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: crimson-wind-71bc.19-5fd.workers.dev
-- name: '🇺🇸[Bomzh]United States #43'
+- name: '🇺🇸[Bomzh]United States #44'
   type: vless
   server: 8.35.211.87
   port: 2096
@@ -6603,7 +6098,7 @@ proxies:
     path: /
     headers:
       Host: go.iranfree.de5.net
-- name: '🇺🇸[Bomzh]United States #44'
+- name: '🇺🇸[Bomzh]United States #45'
   type: vless
   server: 8.35.211.185
   port: 443
@@ -6617,21 +6112,18 @@ proxies:
     path: /
     headers:
       Host: go.iranfree.de5.net
-- name: '🇺🇸[Bomzh]United States #45'
+- name: '🇺🇸[Bomzh]United States #46'
   type: vless
-  server: test2.f1u.us.ci
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: www.ipget.net
+  port: 8880
+  uuid: 41ce10f9-748b-46a0-be7c-e29d863aa028
   udp: true
-  tls: true
-  servername: newwk1.f1w.de5.net
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /pyip=proxyip.jp.cmliussss.net
     headers:
-      Host: newwk1.f1w.de5.net
-- name: '🇺🇸[Bomzh]United States #46'
+      Host: gentle-violet-ceef.497-2fe.workers.dev
+- name: '🇺🇸[Bomzh]United States #47'
   type: vless
   server: upwork.com
   port: 8880
@@ -6642,7 +6134,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: broad-bread-2a6d.433-b9b.workers.dev
-- name: '🇺🇸[Bomzh]United States #47'
+- name: '🇺🇸[Bomzh]United States #48'
   type: vless
   server: 192.241.229.131
   port: 74
@@ -6656,7 +6148,7 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: '🇺🇸[Bomzh]United States #48'
+- name: '🇺🇸[Bomzh]United States #49'
   type: vless
   server: 104.17.109.71
   port: 2082
@@ -6667,7 +6159,7 @@ proxies:
     path: /jeyk7gbxzfe1
     headers:
       Host: index.arcane509.workers.dev
-- name: '🇺🇸[Bomzh]United States #49'
+- name: '🇺🇸[Bomzh]United States #50'
   type: vless
   server: www.visa.com.sg
   port: 8880
@@ -6678,7 +6170,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: proud-recipe-239d.305-0da.workers.dev
-- name: '🇺🇸[Bomzh]United States #50'
+- name: '🇺🇸[Bomzh]United States #51'
   type: vless
   server: mybb.com
   port: 443
@@ -6692,7 +6184,7 @@ proxies:
     path: /
     headers:
       Host: rayan-007.nastaran.dpdns.org
-- name: '🇺🇸[Bomzh]United States #51'
+- name: '🇺🇸[Bomzh]United States #52'
   type: vless
   server: log.bpminecraft.com
   port: 8880
@@ -6703,7 +6195,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: misty-recipe-be74.271.workers.dev
-- name: '🇺🇸[Bomzh]United States #52'
+- name: '🇺🇸[Bomzh]United States #53'
   type: vless
   server: 146.190.124.36
   port: 74
@@ -6717,7 +6209,7 @@ proxies:
     path: /@Marisa_kristi
     headers:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: '🇺🇸[Bomzh]United States #53'
+- name: '🇺🇸[Bomzh]United States #54'
   type: vless
   server: 108.162.198.178
   port: 2086
@@ -6728,7 +6220,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: '🇺🇸[Bomzh]United States #54'
+- name: '🇺🇸[Bomzh]United States #55'
   type: vless
   server: www.gov.ua
   port: 8880
@@ -6739,7 +6231,7 @@ proxies:
     path: /pyip=proxyip.kr.cmliussss.net
     headers:
       Host: icy-unit-58dc.157-59c.workers.dev
-- name: '🇺🇸[Bomzh]United States #55'
+- name: '🇺🇸[Bomzh]United States #56'
   type: vless
   server: www.zsu.gov.ua
   port: 8880
@@ -6750,7 +6242,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: dark-cake-4743.198-46c.workers.dev
-- name: '🇺🇸[Bomzh]United States #56'
+- name: '🇺🇸[Bomzh]United States #57'
   type: vless
   server: 51.81.203.63
   port: 443
@@ -6763,7 +6255,7 @@ proxies:
   reality-opts:
     public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
     short-id: 4477382ff6d3d41c
-- name: '🇺🇸[Bomzh]United States #57'
+- name: '🇺🇸[Bomzh]United States #58'
   type: vmess
   server: www.shopify.com
   port: 443
@@ -6779,7 +6271,7 @@ proxies:
     path: /d187a23a-76a9-4d55-84e3-ea3b8b222cbf-vm
     headers:
       Host: dimensional-regularly-buildings-keys.trycloudflare.com
-- name: '🇺🇸[Bomzh]United States #58'
+- name: '🇺🇸[Bomzh]United States #59'
   type: vmess
   server: 107.173.254.27
   port: 15311
@@ -6787,14 +6279,32 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: '🇺🇸[Bomzh]United States #59'
+- name: '🇺🇸[Bomzh]United States #60'
+  type: vless
+  server: 40.160.69.97
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: '🇺🇸[Bomzh]United States #61'
   type: hysteria2
   server: hh.funvideorus.net
   port: 443
   password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   udp: true
   sni: hh.funvideorus.net
-- name: '🇺🇸[Bomzh]United States #60'
+- name: '🇺🇸[Bomzh]United States #62'
+  type: vless
+  server: 40.160.68.79
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: '🇺🇸[Bomzh]United States #63'
   type: vless
   server: 40.160.69.53
   port: 8080
@@ -6803,16 +6313,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇺🇸[Bomzh]United States #61'
-  type: vless
-  server: 40.160.69.55
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🇺🇸[Bomzh]United States #62'
+- name: '🇺🇸[Bomzh]United States #64'
   type: vless
   server: 40.160.69.112
   port: 8080
@@ -6821,7 +6322,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇺🇸[Bomzh]United States #63'
+- name: '🇺🇸[Bomzh]United States #65'
   type: trojan
   server: 34.94.125.227
   port: 443
@@ -6829,18 +6330,18 @@ proxies:
   udp: true
   sni: mxlo.wsone.icu
   client-fingerprint: chrome
-- name: '🇺🇸[Bomzh]United States #64'
+- name: '🇺🇸[Bomzh]United States #66'
   type: vless
-  server: 40.160.69.180
+  server: 40.160.68.72
   port: 8080
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
   network: ws
   ws-opts:
     path: /
-- name: '🇺🇸[Bomzh]United States #65'
+- name: '🇺🇸[Bomzh]United States #67'
   type: vless
-  server: 40.160.68.72
+  server: 40.160.69.55
   port: 8080
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
@@ -7050,22 +6551,6 @@ proxies:
       Host: None
 - name: '🌐[Bomzh]Unknown #16'
   type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-- name: '🌐[Bomzh]Unknown #17'
-  type: vmess
   server: mtckundigepwu3up.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
@@ -7080,7 +6565,7 @@ proxies:
     path: /ws-vmess
     headers:
       Host: mTCKUNDiGePwU3uP.v.3dns.vip
-- name: '🌐[Bomzh]Unknown #18'
+- name: '🌐[Bomzh]Unknown #17'
   type: vmess
   server: 140.83.57.20
   port: 13118
@@ -7096,15 +6581,7 @@ proxies:
     path: /
     headers:
       Host: sg.11160321.de5.net
-- name: '🌐[Bomzh]Unknown #19'
-  type: vmess
-  server: 165.140.216.142
-  port: 443
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: '🌐[Bomzh]Unknown #20'
+- name: '🌐[Bomzh]Unknown #18'
   type: vmess
   server: 13.250.114.194
   port: 8443
@@ -7112,7 +6589,98 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
+- name: '🌐[Bomzh]Unknown #19'
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: '🌐[Bomzh]Unknown #20'
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
 - name: '🌐[Bomzh]Unknown #21'
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: '🌐[Bomzh]Unknown #22'
+  type: vmess
+  server: 210.138.37.53
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: DrBKg16eGf3FZlM3.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+- name: '🌐[Bomzh]Unknown #23'
+  type: vmess
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: wwafj5LHl6bI8aU9.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+- name: '🌐[Bomzh]Unknown #24'
+  type: vmess
+  server: ce0gedpxwou6cqon.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: ce0gedpxwou6cqon.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ce0gedpxwou6cqon.v.3dns.vip
+- name: '🌐[Bomzh]Unknown #25'
+  type: vmess
+  server: ejomsxptp19apygl.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: ejomsxptp19apygl.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ejomsxptp19apygl.v.3dns.vip
+- name: '🌐[Bomzh]Unknown #26'
   type: vmess
   server: 65.109.215.50
   port: 26980
@@ -7120,7 +6688,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: '🌐[Bomzh]Unknown #22'
+- name: '🌐[Bomzh]Unknown #27'
   type: vless
   server: mybb.com
   port: 443
@@ -7134,7 +6702,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: rayan-007.nastaran.dpdns.org
-- name: '🌐[Bomzh]Unknown #23'
+- name: '🌐[Bomzh]Unknown #28'
   type: vless
   server: nuclear.us.kg
   port: 443
@@ -7148,21 +6716,7 @@ proxies:
     path: /free/1.226.227.169:50001
     headers:
       Host: nuclear.us.kg
-- name: '🌐[Bomzh]Unknown #24'
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: ef456d2c-b206-4b8b-b465-7c1df8b2bb00
-  udp: true
-  tls: true
-  servername: sap.xiaomayi.nyc.mn
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vless-argo
-    headers:
-      Host: sap.xiaomayi.nyc.mn
-- name: '🌐[Bomzh]Unknown #25'
+- name: '🌐[Bomzh]Unknown #29'
   type: vmess
   server: i2psm3knof5qjjix.v.3dns.vip
   port: 443
@@ -7175,15 +6729,20 @@ proxies:
   network: ws
   ws-opts:
     path: /ws-vmess
-- name: '🌐[Bomzh]Unknown #26'
+- name: '🌐[Bomzh]Unknown #30'
   type: vmess
-  server: 129.146.143.80
-  port: 48111
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  server: 132.145.80.230
+  port: 80
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
   alterId: 0
   cipher: auto
   udp: true
-- name: '🌐[Bomzh]Unknown #27'
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: kr02.a0a.xyz
+- name: '🌐[Bomzh]Unknown #31'
   type: vmess
   server: 155.248.176.44
   port: 55216
@@ -7191,23 +6750,15 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: '🌐[Bomzh]Unknown #28'
+- name: '🌐[Bomzh]Unknown #32'
   type: vmess
-  server: ejomsxptp19apygl.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
+  server: 129.146.143.80
+  port: 48111
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
-  servername: ejOMsxPtP19APyGL.v.3dns.vip
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
-- name: '🌐[Bomzh]Unknown #29'
+- name: '🌐[Bomzh]Unknown #33'
   type: vmess
   server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
@@ -7223,49 +6774,39 @@ proxies:
     path: /ws-vmess
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
-- name: '🌐[Bomzh]Unknown #30'
-  type: vless
-  server: nahan-core.fatitelegram.workers.dev
-  port: 443
-  uuid: 73796e63-0000-4000-8000-000000000000
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #31'
-  type: vless
-  server: 0406.infinityconfig7.workers.dev
-  port: 443
-  uuid: d682c8f4-e719-577e-cbe9-2e5b00000000
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #32'
-  type: vless
-  server: lively-pine-093d.144-868.workers.dev
-  port: 8880
-  uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #33'
-  type: vless
-  server: yellow-disk-0edf.diyenec996.workers.dev
-  port: 443
-  uuid: e73d4e2a-ac73-4948-960a-2c2dd57b7ea8
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
 - name: '🌐[Bomzh]Unknown #34'
+  type: vmess
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+- name: '🌐[Bomzh]Unknown #35'
+  type: vmess
+  server: ejomsxptp19apygl.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: ejOMsxPtP19APyGL.v.3dns.vip
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ejOMsxPtP19APyGL.v.3dns.vip
+- name: '🌐[Bomzh]Unknown #36'
   type: vless
   server: ez-4b5fd4.appelidmymat.workers.dev
   port: 443
@@ -7276,7 +6817,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🌐[Bomzh]Unknown #35'
+- name: '🌐[Bomzh]Unknown #37'
   type: vless
   server: ez-abcc2c.igunsjgjnfgn.workers.dev
   port: 2096
@@ -7287,30 +6828,14 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🌐[Bomzh]Unknown #36'
-  type: vless
-  server: 0406.infinityconfig7.workers.dev
-  port: 80
-  uuid: d682c8f4-e719-577e-cbe9-2e5b00000002
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #37'
-  type: vless
-  server: icy-unit-58dc.157-59c.workers.dev
-  port: 8880
-  uuid: e974d4c7-2376-4b65-aa40-0680961ff5e4
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
 - name: '🌐[Bomzh]Unknown #38'
   type: vless
-  server: solitary-mountain-996f.223-38e.workers.dev
-  port: 8880
-  uuid: 58c1b245-2ea0-40b9-b512-bd2bbe3cbe3f
+  server: volexproxy.karjadidd.workers.dev
+  port: 2083
+  uuid: 766f6c65-0000-4000-8000-787000000002
   udp: true
+  tls: true
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
@@ -7325,177 +6850,27 @@ proxies:
     path: /
 - name: '🌐[Bomzh]Unknown #40'
   type: vless
-  server: young-wildflower-6b6c.100-52d.workers.dev
-  port: 8880
-  uuid: 902fd911-ca5d-49a6-99ad-47372a266804
+  server: empty-water-a05b.gfbghfbfngbdgbghngf.workers.dev
+  port: 443
+  uuid: f6a92fa2-5685-3c70-16d5-ba38b388dbbf
   udp: true
+  tls: true
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /
 - name: '🌐[Bomzh]Unknown #41'
   type: vless
-  server: crimson-wind-71bc.19-5fd.workers.dev
-  port: 8880
-  uuid: fe467f51-b2cc-4b16-b50b-a78865ed3dd9
+  server: 0406.infinityconfig7.workers.dev
+  port: 2053
+  uuid: d682c8f4-e719-577e-cbe9-2e5b00000001
   udp: true
+  tls: true
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
 - name: '🌐[Bomzh]Unknown #42'
-  type: vless
-  server: winter-hall-a0a2.74-532.workers.dev
-  port: 8880
-  uuid: d503ca85-91c2-426d-98ce-7a6f44666be1
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #43'
-  type: vless
-  server: lucky-sunset-d12e.201-98c.workers.dev
-  port: 8880
-  uuid: ef770523-8eb5-403f-9e95-06b328719c87
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #44'
-  type: vless
-  server: steep-thunder-97fa.108-d10.workers.dev
-  port: 8880
-  uuid: 23187ddc-16a5-432d-bf4e-dd42a7ae39f7
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #45'
-  type: vless
-  server: icy-fog-9a41.70-a39.workers.dev
-  port: 8880
-  uuid: 1742863c-ce4b-4bb7-b807-80da29cbec86
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #46'
-  type: vless
-  server: peekconfigg.vipserver1-39d.workers.dev
-  port: 8080
-  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #47'
-  type: vless
-  server: ez-abcc2c.igunsjgjnfgn.workers.dev
-  port: 8443
-  uuid: 50414e45-4c5f-5a45-5553-9b0ee99e36dd
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #48'
-  type: vless
-  server: restless-boat-ebf2.moha102030.workers.dev
-  port: 443
-  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #49'
-  type: vless
-  server: calm-silence-d4a1.217.workers.dev
-  port: 8880
-  uuid: 1b3ad465-d37e-48a2-bb53-d7fddfc97b11
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #50'
-  type: vless
-  server: orange-base-2e09.87-c52.workers.dev
-  port: 8880
-  uuid: fe3b26ec-4bc0-464d-a7b9-2db72a89846e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #51'
-  type: vless
-  server: silent-cake-fb8d.69-a76.workers.dev
-  port: 8880
-  uuid: 1563ad16-9ac7-4214-8eb7-303f745efb07
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #52'
-  type: vless
-  server: wispy-cake-ec69.193-bc6.workers.dev
-  port: 8880
-  uuid: 0bd6aa8d-3bdb-4fa3-893e-75a844e2e409
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #53'
-  type: vless
-  server: ez-541f9d.ezaccess1d3db24.workers.dev
-  port: 443
-  uuid: a5b1d1ec-327c-f1c5-5856-b34600000000
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #54'
-  type: vless
-  server: proud-cloud-7bdd.208-a52.workers.dev
-  port: 8880
-  uuid: 160ca353-676d-4b7f-a041-0289e388b865
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #55'
-  type: vless
-  server: volexproxy.karjadidd.workers.dev
-  port: 2083
-  uuid: 766f6c65-0000-4000-8000-787000000002
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #56'
-  type: vless
-  server: aged-silence-8d7d.tahaggs.workers.dev
-  port: 2086
-  uuid: b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #57'
-  type: vless
-  server: peekconfigg.vipserver1-39d.workers.dev
-  port: 443
-  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #58'
   type: vless
   server: app-q0zc4t.user-4gfyh5.workers.dev
   port: 443
@@ -7506,27 +6881,18 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🌐[Bomzh]Unknown #59'
+- name: '🌐[Bomzh]Unknown #43'
   type: vless
-  server: jolly-glitter-123c.196-2b3.workers.dev
-  port: 8880
-  uuid: 999c9769-28db-425a-84d8-ccd7a3321406
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #60'
-  type: vless
-  server: peekconfigg.vipserver1-39d.workers.dev
-  port: 2096
-  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
+  server: restless-boat-ebf2.moha102030.workers.dev
+  port: 443
+  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
   udp: true
   tls: true
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
-- name: '🌐[Bomzh]Unknown #61'
+- name: '🌐[Bomzh]Unknown #44'
   type: vless
   server: nameless-moon-7c4d.shafmrhjlos23.workers.dev
   port: 443
@@ -7537,35 +6903,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🌐[Bomzh]Unknown #62'
-  type: vless
-  server: weathered-lake-e883.35-bc4.workers.dev
-  port: 8880
-  uuid: d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #63'
-  type: vless
-  server: yellow-sky-38b3.154-d73.workers.dev
-  port: 8880
-  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #64'
-  type: trojan
-  server: aged-silence-8d7d.tahaggs.workers.dev
-  port: 2096
-  password: b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748
-  udp: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #65'
+- name: '🌐[Bomzh]Unknown #45'
   type: vless
   server: muddy-math-c1fc.tmpnriqueau89.workers.dev
   port: 443
@@ -7576,230 +6914,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🌐[Bomzh]Unknown #66'
-  type: vless
-  server: small-tree-9ec0.84-971.workers.dev
-  port: 8880
-  uuid: 8546bcef-8456-41a2-82bc-d2231b42b769
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #67'
-  type: vless
-  server: icy-breeze-126c.211-eb3.workers.dev
-  port: 8880
-  uuid: 2e9012a2-7f8c-4233-b78b-5228a9a4951b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #68'
-  type: vless
-  server: curly-night-6928.ggdhchjk.workers.dev
-  port: 443
-  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #69'
-  type: vless
-  server: tiny-feather-4c41.227.workers.dev
-  port: 8880
-  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #70'
-  type: vless
-  server: mute-violet-0186.farhan-poco-x-6.workers.dev
-  port: 2096
-  uuid: 690a33df-2f3b-c260-b8d1-e64000000004
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #71'
-  type: vless
-  server: rapid-lab-95ef.173-74c.workers.dev
-  port: 8880
-  uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #72'
-  type: vless
-  server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-  port: 2095
-  uuid: 73796e63-0000-4000-8000-000000000008
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #73'
-  type: vless
-  server: restless-boat-ebf2.moha102030.workers.dev
-  port: 2053
-  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #74'
-  type: vless
-  server: ez-abcc2c.igunsjgjnfgn.workers.dev
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-9b0ee99e36dd
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #75'
-  type: vless
-  server: round-art-52ee.eadfgv.workers.dev
-  port: 2087
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  udp: true
-  tls: true
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #76'
-  type: vless
-  server: dark-cake-4743.198-46c.workers.dev
-  port: 8880
-  uuid: 812b1aeb-c6f7-43cb-8d8b-981711fea21a
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #77'
-  type: vless
-  server: odd-violet-5440.asdgrweeee13.workers.dev
-  port: 443
-  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #78'
-  type: vless
-  server: autumn-leaf-eefd.119-38e.workers.dev
-  port: 8880
-  uuid: a9fb0f8c-89e9-44ee-9574-a310c5bd259c
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #79'
-  type: vless
-  server: aged-silence-8d7d.tahaggs.workers.dev
-  port: 8080
-  uuid: b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #80'
-  type: vless
-  server: dry-thunder-7f57.57-1a3.workers.dev
-  port: 8880
-  uuid: b92380e2-e03f-4861-856e-7c2373b04728
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #81'
-  type: vless
-  server: update.asshole.eu.cc
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #82'
-  type: vless
-  server: long-firefly-a226.216-ce0.workers.dev
-  port: 8880
-  uuid: 06bfb14e-66cc-48ca-a429-b9301dba2f81
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #83'
-  type: vless
-  server: ez-abcc2c.igunsjgjnfgn.workers.dev
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-9b0ee99e36dd
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #84'
-  type: vless
-  server: lucky-field-0220.191-de2.workers.dev
-  port: 8880
-  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #85'
-  type: vless
-  server: muddy-art-8cda.197-0c6.workers.dev
-  port: 8880
-  uuid: 86d998bc-a5a2-45d5-8169-b906259110a6
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #86'
-  type: vless
-  server: ez-abcc2c.igunsjgjnfgn.workers.dev
-  port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-9b0ee99e36dd
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: '🌐[Bomzh]Unknown #87'
-  type: vless
-  server: 0406.infinityconfig7.workers.dev
-  port: 8080
-  uuid: d682c8f4-e719-577e-cbe9-2e5b00000003
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
 - name: '🇺🇿[Bomzh]Uzbekistan #1'
-  type: vless
-  server: long-boat-7113.303-08c.workers.dev
-  port: 8880
-  uuid: a8c27bd6-e395-4f9b-a75d-1c3bc6b1f83a
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '🇺🇿[Bomzh]Uzbekistan #2'
   type: vless
   server: wild-frog-54a9.170-dcc.workers.dev
   port: 8880
@@ -7808,7 +6923,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '🇺🇿[Bomzh]Uzbekistan #3'
+- name: '🇺🇿[Bomzh]Uzbekistan #2'
   type: vless
   server: 104.17.95.220
   port: 2052
@@ -7825,12 +6940,12 @@ proxy-groups:
   proxies:
   - AUTO
   - '🇦🇱[Bomzh]Albania #1'
-  - '🇦🇷[Bomzh]Argentina #1'
   - '🇦🇺[Bomzh]Australia #1'
   - '🇦🇺[Bomzh]Australia #2'
   - '🇦🇺[Bomzh]Australia #3'
   - '🇦🇹[Bomzh]Austria #1'
   - '🇦🇹[Bomzh]Austria #2'
+  - '🇦🇹[Bomzh]Austria #3'
   - '🇧🇾[Bomzh]Belarus #1'
   - '🇧🇾[Bomzh]Belarus #2'
   - '🇧🇾[Bomzh]Belarus #3'
@@ -7849,15 +6964,12 @@ proxy-groups:
   - '🇧🇷[Bomzh]Brazil #10'
   - '🇧🇷[Bomzh]Brazil #11'
   - '🇧🇷[Bomzh]Brazil #12'
-  - '🇧🇷[Bomzh]Brazil #13'
   - '🇧🇬[Bomzh]Bulgaria #1'
   - '🇧🇬[Bomzh]Bulgaria #2'
   - '🇧🇬[Bomzh]Bulgaria #3'
   - '🇧🇬[Bomzh]Bulgaria #4'
   - '🇧🇬[Bomzh]Bulgaria #5'
   - '🇧🇬[Bomzh]Bulgaria #6'
-  - '🇧🇬[Bomzh]Bulgaria #7'
-  - '🇧🇬[Bomzh]Bulgaria #8'
   - '🇨🇦[Bomzh]Canada #1'
   - '🇨🇦[Bomzh]Canada #2'
   - '🇨🇦[Bomzh]Canada #3'
@@ -8055,35 +7167,12 @@ proxy-groups:
   - '🇨🇦[Bomzh]Canada #195'
   - '🇨🇦[Bomzh]Canada #196'
   - '🇨🇦[Bomzh]Canada #197'
-  - '🇨🇦[Bomzh]Canada #198'
-  - '🇨🇦[Bomzh]Canada #199'
-  - '🇨🇦[Bomzh]Canada #200'
-  - '🇨🇦[Bomzh]Canada #201'
-  - '🇨🇦[Bomzh]Canada #202'
-  - '🇨🇦[Bomzh]Canada #203'
-  - '🇨🇦[Bomzh]Canada #204'
-  - '🇨🇦[Bomzh]Canada #205'
-  - '🇨🇦[Bomzh]Canada #206'
-  - '🇨🇦[Bomzh]Canada #207'
-  - '🇨🇦[Bomzh]Canada #208'
-  - '🇨🇦[Bomzh]Canada #209'
-  - '🇨🇦[Bomzh]Canada #210'
-  - '🇨🇦[Bomzh]Canada #211'
-  - '🇨🇦[Bomzh]Canada #212'
-  - '🇨🇦[Bomzh]Canada #213'
-  - '🇨🇦[Bomzh]Canada #214'
-  - '🇨🇦[Bomzh]Canada #215'
-  - '🇨🇦[Bomzh]Canada #216'
-  - '🇨🇦[Bomzh]Canada #217'
-  - '🇨🇦[Bomzh]Canada #218'
   - '🇨🇱[Bomzh]Chile #1'
   - '🇨🇱[Bomzh]Chile #2'
   - '🇨🇳[Bomzh]China #1'
   - '🇨🇳[Bomzh]China #2'
   - '🇨🇳[Bomzh]China #3'
   - '🇨🇳[Bomzh]China #4'
-  - '🇨🇳[Bomzh]China #5'
-  - '🇨🇳[Bomzh]China #6'
   - '🇨🇴[Bomzh]Colombia #1'
   - '🇨🇴[Bomzh]Colombia #2'
   - '🇨🇴[Bomzh]Colombia #3'
@@ -8116,8 +7205,6 @@ proxy-groups:
   - '🇫🇷[Bomzh]France #11'
   - '🇫🇷[Bomzh]France #12'
   - '🇫🇷[Bomzh]France #13'
-  - '🇫🇷[Bomzh]France #14'
-  - '🇫🇷[Bomzh]France #15'
   - '🇬🇪[Bomzh]Georgia #1'
   - '🇩🇪[Bomzh]Germany #1'
   - '🇩🇪[Bomzh]Germany #2'
@@ -8152,14 +7239,10 @@ proxy-groups:
   - '🇩🇪[Bomzh]Germany #31'
   - '🇩🇪[Bomzh]Germany #32'
   - '🇩🇪[Bomzh]Germany #33'
-  - '🇩🇪[Bomzh]Germany #34'
-  - '🇩🇪[Bomzh]Germany #35'
-  - '🇩🇪[Bomzh]Germany #36'
   - '🇬🇷[Bomzh]Greece #1'
   - '🇬🇷[Bomzh]Greece #2'
   - '🇬🇷[Bomzh]Greece #3'
   - '🇬🇷[Bomzh]Greece #4'
-  - '🇬🇷[Bomzh]Greece #5'
   - '🇭🇰[Bomzh]Hong Kong #1'
   - '🇭🇰[Bomzh]Hong Kong #2'
   - '🇭🇰[Bomzh]Hong Kong #3'
@@ -8169,6 +7252,8 @@ proxy-groups:
   - '🇭🇰[Bomzh]Hong Kong #7'
   - '🇭🇰[Bomzh]Hong Kong #8'
   - '🇭🇰[Bomzh]Hong Kong #9'
+  - '🇭🇰[Bomzh]Hong Kong #10'
+  - '🇭🇰[Bomzh]Hong Kong #11'
   - '🇮🇸[Bomzh]Iceland #1'
   - '🇮🇸[Bomzh]Iceland #2'
   - '🇮🇸[Bomzh]Iceland #3'
@@ -8200,21 +7285,18 @@ proxy-groups:
   - '🇮🇹[Bomzh]Italy #6'
   - '🇮🇹[Bomzh]Italy #7'
   - '🇮🇹[Bomzh]Italy #8'
-  - '🇮🇹[Bomzh]Italy #9'
-  - '🇮🇹[Bomzh]Italy #10'
-  - '🇮🇹[Bomzh]Italy #11'
   - '🇯🇵[Bomzh]Japan #1'
   - '🇯🇵[Bomzh]Japan #2'
   - '🇯🇵[Bomzh]Japan #3'
   - '🇯🇵[Bomzh]Japan #4'
   - '🇯🇵[Bomzh]Japan #5'
+  - '🇯🇵[Bomzh]Japan #6'
   - '🇰🇿[Bomzh]Kazakhstan #1'
   - '🇰🇿[Bomzh]Kazakhstan #2'
   - '🇰🇿[Bomzh]Kazakhstan #3'
   - '🇱🇻[Bomzh]Latvia #1'
   - '🇱🇻[Bomzh]Latvia #2'
   - '🇱🇻[Bomzh]Latvia #3'
-  - '🇱🇻[Bomzh]Latvia #4'
   - '🇱🇹[Bomzh]Lithuania #1'
   - '🇱🇹[Bomzh]Lithuania #2'
   - '🇱🇹[Bomzh]Lithuania #3'
@@ -8226,6 +7308,7 @@ proxy-groups:
   - '🇱🇹[Bomzh]Lithuania #9'
   - '🇱🇹[Bomzh]Lithuania #10'
   - '🇱🇹[Bomzh]Lithuania #11'
+  - '🇱🇹[Bomzh]Lithuania #12'
   - '🇲🇾[Bomzh]Malaysia #1'
   - '🇲🇾[Bomzh]Malaysia #2'
   - '🇲🇹[Bomzh]Malta #1'
@@ -8243,8 +7326,6 @@ proxy-groups:
   - '🇲🇪[Bomzh]Montenegro #11'
   - '🇲🇪[Bomzh]Montenegro #12'
   - '🇲🇪[Bomzh]Montenegro #13'
-  - '🇲🇪[Bomzh]Montenegro #14'
-  - '🇲🇪[Bomzh]Montenegro #15'
   - '🇳🇱[Bomzh]Netherlands #1'
   - '🇳🇱[Bomzh]Netherlands #2'
   - '🇳🇱[Bomzh]Netherlands #3'
@@ -8254,6 +7335,8 @@ proxy-groups:
   - '🇳🇱[Bomzh]Netherlands #7'
   - '🇳🇱[Bomzh]Netherlands #8'
   - '🇳🇱[Bomzh]Netherlands #9'
+  - '🇳🇱[Bomzh]Netherlands #10'
+  - '🇳🇱[Bomzh]Netherlands #11'
   - '🇳🇬[Bomzh]Nigeria #1'
   - '🇲🇰[Bomzh]North Macedonia #1'
   - '🇳🇴[Bomzh]Norway #1'
@@ -8263,7 +7346,6 @@ proxy-groups:
   - '🇳🇴[Bomzh]Norway #5'
   - '🇵🇰[Bomzh]Pakistan #1'
   - '🇵🇰[Bomzh]Pakistan #2'
-  - '🇵🇱[Bomzh]Poland #1'
   - '🇵🇹[Bomzh]Portugal #1'
   - '🇵🇹[Bomzh]Portugal #2'
   - '🇶🇦[Bomzh]Qatar #1'
@@ -8281,20 +7363,12 @@ proxy-groups:
   - '🇷🇺[Bomzh]Russia #12'
   - '🇷🇺[Bomzh]Russia #13'
   - '🇷🇺[Bomzh]Russia #14'
-  - '🇷🇺[Bomzh]Russia #15'
-  - '🇷🇺[Bomzh]Russia #16'
-  - '🇷🇺[Bomzh]Russia #17'
-  - '🇷🇺[Bomzh]Russia #18'
-  - '🇷🇺[Bomzh]Russia #19'
-  - '🇷🇺[Bomzh]Russia #20'
-  - '🇷🇺[Bomzh]Russia #21'
-  - '🇷🇺[Bomzh]Russia #22'
+  - '🇸🇨[Bomzh]SC #1'
   - '🇷🇸[Bomzh]Serbia #1'
   - '🇷🇸[Bomzh]Serbia #2'
   - '🇷🇸[Bomzh]Serbia #3'
   - '🇸🇨[Bomzh]Seychelles #1'
   - '🇸🇨[Bomzh]Seychelles #2'
-  - '🇸🇨[Bomzh]Seychelles #3'
   - '🇸🇬[Bomzh]Singapore #1'
   - '🇸🇬[Bomzh]Singapore #2'
   - '🇸🇬[Bomzh]Singapore #3'
@@ -8310,15 +7384,12 @@ proxy-groups:
   - '🇸🇬[Bomzh]Singapore #13'
   - '🇸🇬[Bomzh]Singapore #14'
   - '🇸🇬[Bomzh]Singapore #15'
-  - '🇸🇬[Bomzh]Singapore #16'
-  - '🇸🇬[Bomzh]Singapore #17'
   - '🇸🇰[Bomzh]Slovakia #1'
   - '🇸🇰[Bomzh]Slovakia #2'
   - '🇸🇰[Bomzh]Slovakia #3'
   - '🇸🇰[Bomzh]Slovakia #4'
   - '🇸🇮[Bomzh]Slovenia #1'
   - '🇸🇮[Bomzh]Slovenia #2'
-  - '🇸🇮[Bomzh]Slovenia #3'
   - '🇰🇷[Bomzh]South Korea #1'
   - '🇰🇷[Bomzh]South Korea #2'
   - '🇰🇷[Bomzh]South Korea #3'
@@ -8326,11 +7397,8 @@ proxy-groups:
   - '🇰🇷[Bomzh]South Korea #5'
   - '🇰🇷[Bomzh]South Korea #6'
   - '🇰🇷[Bomzh]South Korea #7'
-  - '🇰🇷[Bomzh]South Korea #8'
-  - '🇰🇷[Bomzh]South Korea #9'
   - '🇪🇸[Bomzh]Spain #1'
   - '🇪🇸[Bomzh]Spain #2'
-  - '🇪🇸[Bomzh]Spain #3'
   - '🇸🇪[Bomzh]Sweden #1'
   - '🇸🇪[Bomzh]Sweden #2'
   - '🇸🇪[Bomzh]Sweden #3'
@@ -8358,13 +7426,10 @@ proxy-groups:
   - '🇳🇱[Bomzh]The Netherlands #6'
   - '🇹🇷[Bomzh]Turkey #1'
   - '🇹🇷[Bomzh]Turkey #2'
-  - '🇹🇷[Bomzh]Turkey #3'
-  - '🇹🇷[Bomzh]Turkey #4'
   - '🇺🇦[Bomzh]Ukraine #1'
   - '🇺🇦[Bomzh]Ukraine #2'
   - '🇦🇪[Bomzh]United Arab Emirates #1'
   - '🇦🇪[Bomzh]United Arab Emirates #2'
-  - '🇦🇪[Bomzh]United Arab Emirates #3'
   - '🇬🇧[Bomzh]United Kingdom #1'
   - '🇬🇧[Bomzh]United Kingdom #2'
   - '🇬🇧[Bomzh]United Kingdom #3'
@@ -8385,6 +7450,9 @@ proxy-groups:
   - '🇬🇧[Bomzh]United Kingdom #18'
   - '🇬🇧[Bomzh]United Kingdom #19'
   - '🇬🇧[Bomzh]United Kingdom #20'
+  - '🇬🇧[Bomzh]United Kingdom #21'
+  - '🇬🇧[Bomzh]United Kingdom #22'
+  - '🇬🇧[Bomzh]United Kingdom #23'
   - '🇺🇸[Bomzh]United States #1'
   - '🇺🇸[Bomzh]United States #2'
   - '🇺🇸[Bomzh]United States #3'
@@ -8450,6 +7518,8 @@ proxy-groups:
   - '🇺🇸[Bomzh]United States #63'
   - '🇺🇸[Bomzh]United States #64'
   - '🇺🇸[Bomzh]United States #65'
+  - '🇺🇸[Bomzh]United States #66'
+  - '🇺🇸[Bomzh]United States #67'
   - '🌐[Bomzh]Unknown #1'
   - '🌐[Bomzh]Unknown #2'
   - '🌐[Bomzh]Unknown #3'
@@ -8495,61 +7565,18 @@ proxy-groups:
   - '🌐[Bomzh]Unknown #43'
   - '🌐[Bomzh]Unknown #44'
   - '🌐[Bomzh]Unknown #45'
-  - '🌐[Bomzh]Unknown #46'
-  - '🌐[Bomzh]Unknown #47'
-  - '🌐[Bomzh]Unknown #48'
-  - '🌐[Bomzh]Unknown #49'
-  - '🌐[Bomzh]Unknown #50'
-  - '🌐[Bomzh]Unknown #51'
-  - '🌐[Bomzh]Unknown #52'
-  - '🌐[Bomzh]Unknown #53'
-  - '🌐[Bomzh]Unknown #54'
-  - '🌐[Bomzh]Unknown #55'
-  - '🌐[Bomzh]Unknown #56'
-  - '🌐[Bomzh]Unknown #57'
-  - '🌐[Bomzh]Unknown #58'
-  - '🌐[Bomzh]Unknown #59'
-  - '🌐[Bomzh]Unknown #60'
-  - '🌐[Bomzh]Unknown #61'
-  - '🌐[Bomzh]Unknown #62'
-  - '🌐[Bomzh]Unknown #63'
-  - '🌐[Bomzh]Unknown #64'
-  - '🌐[Bomzh]Unknown #65'
-  - '🌐[Bomzh]Unknown #66'
-  - '🌐[Bomzh]Unknown #67'
-  - '🌐[Bomzh]Unknown #68'
-  - '🌐[Bomzh]Unknown #69'
-  - '🌐[Bomzh]Unknown #70'
-  - '🌐[Bomzh]Unknown #71'
-  - '🌐[Bomzh]Unknown #72'
-  - '🌐[Bomzh]Unknown #73'
-  - '🌐[Bomzh]Unknown #74'
-  - '🌐[Bomzh]Unknown #75'
-  - '🌐[Bomzh]Unknown #76'
-  - '🌐[Bomzh]Unknown #77'
-  - '🌐[Bomzh]Unknown #78'
-  - '🌐[Bomzh]Unknown #79'
-  - '🌐[Bomzh]Unknown #80'
-  - '🌐[Bomzh]Unknown #81'
-  - '🌐[Bomzh]Unknown #82'
-  - '🌐[Bomzh]Unknown #83'
-  - '🌐[Bomzh]Unknown #84'
-  - '🌐[Bomzh]Unknown #85'
-  - '🌐[Bomzh]Unknown #86'
-  - '🌐[Bomzh]Unknown #87'
   - '🇺🇿[Bomzh]Uzbekistan #1'
   - '🇺🇿[Bomzh]Uzbekistan #2'
-  - '🇺🇿[Bomzh]Uzbekistan #3'
 - name: AUTO
   type: url-test
   proxies:
   - '🇦🇱[Bomzh]Albania #1'
-  - '🇦🇷[Bomzh]Argentina #1'
   - '🇦🇺[Bomzh]Australia #1'
   - '🇦🇺[Bomzh]Australia #2'
   - '🇦🇺[Bomzh]Australia #3'
   - '🇦🇹[Bomzh]Austria #1'
   - '🇦🇹[Bomzh]Austria #2'
+  - '🇦🇹[Bomzh]Austria #3'
   - '🇧🇾[Bomzh]Belarus #1'
   - '🇧🇾[Bomzh]Belarus #2'
   - '🇧🇾[Bomzh]Belarus #3'
@@ -8568,15 +7595,12 @@ proxy-groups:
   - '🇧🇷[Bomzh]Brazil #10'
   - '🇧🇷[Bomzh]Brazil #11'
   - '🇧🇷[Bomzh]Brazil #12'
-  - '🇧🇷[Bomzh]Brazil #13'
   - '🇧🇬[Bomzh]Bulgaria #1'
   - '🇧🇬[Bomzh]Bulgaria #2'
   - '🇧🇬[Bomzh]Bulgaria #3'
   - '🇧🇬[Bomzh]Bulgaria #4'
   - '🇧🇬[Bomzh]Bulgaria #5'
   - '🇧🇬[Bomzh]Bulgaria #6'
-  - '🇧🇬[Bomzh]Bulgaria #7'
-  - '🇧🇬[Bomzh]Bulgaria #8'
   - '🇨🇦[Bomzh]Canada #1'
   - '🇨🇦[Bomzh]Canada #2'
   - '🇨🇦[Bomzh]Canada #3'
@@ -8774,35 +7798,12 @@ proxy-groups:
   - '🇨🇦[Bomzh]Canada #195'
   - '🇨🇦[Bomzh]Canada #196'
   - '🇨🇦[Bomzh]Canada #197'
-  - '🇨🇦[Bomzh]Canada #198'
-  - '🇨🇦[Bomzh]Canada #199'
-  - '🇨🇦[Bomzh]Canada #200'
-  - '🇨🇦[Bomzh]Canada #201'
-  - '🇨🇦[Bomzh]Canada #202'
-  - '🇨🇦[Bomzh]Canada #203'
-  - '🇨🇦[Bomzh]Canada #204'
-  - '🇨🇦[Bomzh]Canada #205'
-  - '🇨🇦[Bomzh]Canada #206'
-  - '🇨🇦[Bomzh]Canada #207'
-  - '🇨🇦[Bomzh]Canada #208'
-  - '🇨🇦[Bomzh]Canada #209'
-  - '🇨🇦[Bomzh]Canada #210'
-  - '🇨🇦[Bomzh]Canada #211'
-  - '🇨🇦[Bomzh]Canada #212'
-  - '🇨🇦[Bomzh]Canada #213'
-  - '🇨🇦[Bomzh]Canada #214'
-  - '🇨🇦[Bomzh]Canada #215'
-  - '🇨🇦[Bomzh]Canada #216'
-  - '🇨🇦[Bomzh]Canada #217'
-  - '🇨🇦[Bomzh]Canada #218'
   - '🇨🇱[Bomzh]Chile #1'
   - '🇨🇱[Bomzh]Chile #2'
   - '🇨🇳[Bomzh]China #1'
   - '🇨🇳[Bomzh]China #2'
   - '🇨🇳[Bomzh]China #3'
   - '🇨🇳[Bomzh]China #4'
-  - '🇨🇳[Bomzh]China #5'
-  - '🇨🇳[Bomzh]China #6'
   - '🇨🇴[Bomzh]Colombia #1'
   - '🇨🇴[Bomzh]Colombia #2'
   - '🇨🇴[Bomzh]Colombia #3'
@@ -8835,8 +7836,6 @@ proxy-groups:
   - '🇫🇷[Bomzh]France #11'
   - '🇫🇷[Bomzh]France #12'
   - '🇫🇷[Bomzh]France #13'
-  - '🇫🇷[Bomzh]France #14'
-  - '🇫🇷[Bomzh]France #15'
   - '🇬🇪[Bomzh]Georgia #1'
   - '🇩🇪[Bomzh]Germany #1'
   - '🇩🇪[Bomzh]Germany #2'
@@ -8871,14 +7870,10 @@ proxy-groups:
   - '🇩🇪[Bomzh]Germany #31'
   - '🇩🇪[Bomzh]Germany #32'
   - '🇩🇪[Bomzh]Germany #33'
-  - '🇩🇪[Bomzh]Germany #34'
-  - '🇩🇪[Bomzh]Germany #35'
-  - '🇩🇪[Bomzh]Germany #36'
   - '🇬🇷[Bomzh]Greece #1'
   - '🇬🇷[Bomzh]Greece #2'
   - '🇬🇷[Bomzh]Greece #3'
   - '🇬🇷[Bomzh]Greece #4'
-  - '🇬🇷[Bomzh]Greece #5'
   - '🇭🇰[Bomzh]Hong Kong #1'
   - '🇭🇰[Bomzh]Hong Kong #2'
   - '🇭🇰[Bomzh]Hong Kong #3'
@@ -8888,6 +7883,8 @@ proxy-groups:
   - '🇭🇰[Bomzh]Hong Kong #7'
   - '🇭🇰[Bomzh]Hong Kong #8'
   - '🇭🇰[Bomzh]Hong Kong #9'
+  - '🇭🇰[Bomzh]Hong Kong #10'
+  - '🇭🇰[Bomzh]Hong Kong #11'
   - '🇮🇸[Bomzh]Iceland #1'
   - '🇮🇸[Bomzh]Iceland #2'
   - '🇮🇸[Bomzh]Iceland #3'
@@ -8919,21 +7916,18 @@ proxy-groups:
   - '🇮🇹[Bomzh]Italy #6'
   - '🇮🇹[Bomzh]Italy #7'
   - '🇮🇹[Bomzh]Italy #8'
-  - '🇮🇹[Bomzh]Italy #9'
-  - '🇮🇹[Bomzh]Italy #10'
-  - '🇮🇹[Bomzh]Italy #11'
   - '🇯🇵[Bomzh]Japan #1'
   - '🇯🇵[Bomzh]Japan #2'
   - '🇯🇵[Bomzh]Japan #3'
   - '🇯🇵[Bomzh]Japan #4'
   - '🇯🇵[Bomzh]Japan #5'
+  - '🇯🇵[Bomzh]Japan #6'
   - '🇰🇿[Bomzh]Kazakhstan #1'
   - '🇰🇿[Bomzh]Kazakhstan #2'
   - '🇰🇿[Bomzh]Kazakhstan #3'
   - '🇱🇻[Bomzh]Latvia #1'
   - '🇱🇻[Bomzh]Latvia #2'
   - '🇱🇻[Bomzh]Latvia #3'
-  - '🇱🇻[Bomzh]Latvia #4'
   - '🇱🇹[Bomzh]Lithuania #1'
   - '🇱🇹[Bomzh]Lithuania #2'
   - '🇱🇹[Bomzh]Lithuania #3'
@@ -8945,6 +7939,7 @@ proxy-groups:
   - '🇱🇹[Bomzh]Lithuania #9'
   - '🇱🇹[Bomzh]Lithuania #10'
   - '🇱🇹[Bomzh]Lithuania #11'
+  - '🇱🇹[Bomzh]Lithuania #12'
   - '🇲🇾[Bomzh]Malaysia #1'
   - '🇲🇾[Bomzh]Malaysia #2'
   - '🇲🇹[Bomzh]Malta #1'
@@ -8962,8 +7957,6 @@ proxy-groups:
   - '🇲🇪[Bomzh]Montenegro #11'
   - '🇲🇪[Bomzh]Montenegro #12'
   - '🇲🇪[Bomzh]Montenegro #13'
-  - '🇲🇪[Bomzh]Montenegro #14'
-  - '🇲🇪[Bomzh]Montenegro #15'
   - '🇳🇱[Bomzh]Netherlands #1'
   - '🇳🇱[Bomzh]Netherlands #2'
   - '🇳🇱[Bomzh]Netherlands #3'
@@ -8973,6 +7966,8 @@ proxy-groups:
   - '🇳🇱[Bomzh]Netherlands #7'
   - '🇳🇱[Bomzh]Netherlands #8'
   - '🇳🇱[Bomzh]Netherlands #9'
+  - '🇳🇱[Bomzh]Netherlands #10'
+  - '🇳🇱[Bomzh]Netherlands #11'
   - '🇳🇬[Bomzh]Nigeria #1'
   - '🇲🇰[Bomzh]North Macedonia #1'
   - '🇳🇴[Bomzh]Norway #1'
@@ -8982,7 +7977,6 @@ proxy-groups:
   - '🇳🇴[Bomzh]Norway #5'
   - '🇵🇰[Bomzh]Pakistan #1'
   - '🇵🇰[Bomzh]Pakistan #2'
-  - '🇵🇱[Bomzh]Poland #1'
   - '🇵🇹[Bomzh]Portugal #1'
   - '🇵🇹[Bomzh]Portugal #2'
   - '🇶🇦[Bomzh]Qatar #1'
@@ -9000,20 +7994,12 @@ proxy-groups:
   - '🇷🇺[Bomzh]Russia #12'
   - '🇷🇺[Bomzh]Russia #13'
   - '🇷🇺[Bomzh]Russia #14'
-  - '🇷🇺[Bomzh]Russia #15'
-  - '🇷🇺[Bomzh]Russia #16'
-  - '🇷🇺[Bomzh]Russia #17'
-  - '🇷🇺[Bomzh]Russia #18'
-  - '🇷🇺[Bomzh]Russia #19'
-  - '🇷🇺[Bomzh]Russia #20'
-  - '🇷🇺[Bomzh]Russia #21'
-  - '🇷🇺[Bomzh]Russia #22'
+  - '🇸🇨[Bomzh]SC #1'
   - '🇷🇸[Bomzh]Serbia #1'
   - '🇷🇸[Bomzh]Serbia #2'
   - '🇷🇸[Bomzh]Serbia #3'
   - '🇸🇨[Bomzh]Seychelles #1'
   - '🇸🇨[Bomzh]Seychelles #2'
-  - '🇸🇨[Bomzh]Seychelles #3'
   - '🇸🇬[Bomzh]Singapore #1'
   - '🇸🇬[Bomzh]Singapore #2'
   - '🇸🇬[Bomzh]Singapore #3'
@@ -9029,15 +8015,12 @@ proxy-groups:
   - '🇸🇬[Bomzh]Singapore #13'
   - '🇸🇬[Bomzh]Singapore #14'
   - '🇸🇬[Bomzh]Singapore #15'
-  - '🇸🇬[Bomzh]Singapore #16'
-  - '🇸🇬[Bomzh]Singapore #17'
   - '🇸🇰[Bomzh]Slovakia #1'
   - '🇸🇰[Bomzh]Slovakia #2'
   - '🇸🇰[Bomzh]Slovakia #3'
   - '🇸🇰[Bomzh]Slovakia #4'
   - '🇸🇮[Bomzh]Slovenia #1'
   - '🇸🇮[Bomzh]Slovenia #2'
-  - '🇸🇮[Bomzh]Slovenia #3'
   - '🇰🇷[Bomzh]South Korea #1'
   - '🇰🇷[Bomzh]South Korea #2'
   - '🇰🇷[Bomzh]South Korea #3'
@@ -9045,11 +8028,8 @@ proxy-groups:
   - '🇰🇷[Bomzh]South Korea #5'
   - '🇰🇷[Bomzh]South Korea #6'
   - '🇰🇷[Bomzh]South Korea #7'
-  - '🇰🇷[Bomzh]South Korea #8'
-  - '🇰🇷[Bomzh]South Korea #9'
   - '🇪🇸[Bomzh]Spain #1'
   - '🇪🇸[Bomzh]Spain #2'
-  - '🇪🇸[Bomzh]Spain #3'
   - '🇸🇪[Bomzh]Sweden #1'
   - '🇸🇪[Bomzh]Sweden #2'
   - '🇸🇪[Bomzh]Sweden #3'
@@ -9077,13 +8057,10 @@ proxy-groups:
   - '🇳🇱[Bomzh]The Netherlands #6'
   - '🇹🇷[Bomzh]Turkey #1'
   - '🇹🇷[Bomzh]Turkey #2'
-  - '🇹🇷[Bomzh]Turkey #3'
-  - '🇹🇷[Bomzh]Turkey #4'
   - '🇺🇦[Bomzh]Ukraine #1'
   - '🇺🇦[Bomzh]Ukraine #2'
   - '🇦🇪[Bomzh]United Arab Emirates #1'
   - '🇦🇪[Bomzh]United Arab Emirates #2'
-  - '🇦🇪[Bomzh]United Arab Emirates #3'
   - '🇬🇧[Bomzh]United Kingdom #1'
   - '🇬🇧[Bomzh]United Kingdom #2'
   - '🇬🇧[Bomzh]United Kingdom #3'
@@ -9104,6 +8081,9 @@ proxy-groups:
   - '🇬🇧[Bomzh]United Kingdom #18'
   - '🇬🇧[Bomzh]United Kingdom #19'
   - '🇬🇧[Bomzh]United Kingdom #20'
+  - '🇬🇧[Bomzh]United Kingdom #21'
+  - '🇬🇧[Bomzh]United Kingdom #22'
+  - '🇬🇧[Bomzh]United Kingdom #23'
   - '🇺🇸[Bomzh]United States #1'
   - '🇺🇸[Bomzh]United States #2'
   - '🇺🇸[Bomzh]United States #3'
@@ -9169,6 +8149,8 @@ proxy-groups:
   - '🇺🇸[Bomzh]United States #63'
   - '🇺🇸[Bomzh]United States #64'
   - '🇺🇸[Bomzh]United States #65'
+  - '🇺🇸[Bomzh]United States #66'
+  - '🇺🇸[Bomzh]United States #67'
   - '🌐[Bomzh]Unknown #1'
   - '🌐[Bomzh]Unknown #2'
   - '🌐[Bomzh]Unknown #3'
@@ -9214,51 +8196,8 @@ proxy-groups:
   - '🌐[Bomzh]Unknown #43'
   - '🌐[Bomzh]Unknown #44'
   - '🌐[Bomzh]Unknown #45'
-  - '🌐[Bomzh]Unknown #46'
-  - '🌐[Bomzh]Unknown #47'
-  - '🌐[Bomzh]Unknown #48'
-  - '🌐[Bomzh]Unknown #49'
-  - '🌐[Bomzh]Unknown #50'
-  - '🌐[Bomzh]Unknown #51'
-  - '🌐[Bomzh]Unknown #52'
-  - '🌐[Bomzh]Unknown #53'
-  - '🌐[Bomzh]Unknown #54'
-  - '🌐[Bomzh]Unknown #55'
-  - '🌐[Bomzh]Unknown #56'
-  - '🌐[Bomzh]Unknown #57'
-  - '🌐[Bomzh]Unknown #58'
-  - '🌐[Bomzh]Unknown #59'
-  - '🌐[Bomzh]Unknown #60'
-  - '🌐[Bomzh]Unknown #61'
-  - '🌐[Bomzh]Unknown #62'
-  - '🌐[Bomzh]Unknown #63'
-  - '🌐[Bomzh]Unknown #64'
-  - '🌐[Bomzh]Unknown #65'
-  - '🌐[Bomzh]Unknown #66'
-  - '🌐[Bomzh]Unknown #67'
-  - '🌐[Bomzh]Unknown #68'
-  - '🌐[Bomzh]Unknown #69'
-  - '🌐[Bomzh]Unknown #70'
-  - '🌐[Bomzh]Unknown #71'
-  - '🌐[Bomzh]Unknown #72'
-  - '🌐[Bomzh]Unknown #73'
-  - '🌐[Bomzh]Unknown #74'
-  - '🌐[Bomzh]Unknown #75'
-  - '🌐[Bomzh]Unknown #76'
-  - '🌐[Bomzh]Unknown #77'
-  - '🌐[Bomzh]Unknown #78'
-  - '🌐[Bomzh]Unknown #79'
-  - '🌐[Bomzh]Unknown #80'
-  - '🌐[Bomzh]Unknown #81'
-  - '🌐[Bomzh]Unknown #82'
-  - '🌐[Bomzh]Unknown #83'
-  - '🌐[Bomzh]Unknown #84'
-  - '🌐[Bomzh]Unknown #85'
-  - '🌐[Bomzh]Unknown #86'
-  - '🌐[Bomzh]Unknown #87'
   - '🇺🇿[Bomzh]Uzbekistan #1'
   - '🇺🇿[Bomzh]Uzbekistan #2'
-  - '🇺🇿[Bomzh]Uzbekistan #3'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
